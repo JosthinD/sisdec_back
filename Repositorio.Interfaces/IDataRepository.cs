@@ -6,5 +6,6 @@ namespace Repositorio.Interfaces
     public interface IDataRepository
     {      
         Task<List<Roles>> GetAllRoles();
+        Task<bool> AddNewLog(Logs logs);
     }
 }
