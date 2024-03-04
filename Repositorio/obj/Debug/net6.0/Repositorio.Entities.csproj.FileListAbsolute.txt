@@ -1,0 +1,33 @@
+D:\u\Proyecto Grado\Repositorio\bin\Debug\net6.0\Repositorio.Entities.deps.json
+D:\u\Proyecto Grado\Repositorio\bin\Debug\net6.0\Repositorio.Entities.dll
+D:\u\Proyecto Grado\Repositorio\bin\Debug\net6.0\Repositorio.Entities.pdb
+D:\u\Proyecto Grado\Repositorio\obj\Debug\net6.0\Repositorio.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\u\Proyecto Grado\Repositorio\obj\Debug\net6.0\Repositorio.Entities.AssemblyInfoInputs.cache
+D:\u\Proyecto Grado\Repositorio\obj\Debug\net6.0\Repositorio.Entities.AssemblyInfo.cs
+D:\u\Proyecto Grado\Repositorio\obj\Debug\net6.0\Repositorio.Entities.csproj.CoreCompileInputs.cache
+D:\u\Proyecto Grado\Repositorio\obj\Debug\net6.0\Repositorio.Entities.dll
+D:\u\Proyecto Grado\Repositorio\obj\Debug\net6.0\refint\Repositorio.Entities.dll
+D:\u\Proyecto Grado\Repositorio\obj\Debug\net6.0\Repositorio.Entities.pdb
+D:\u\Proyecto Grado\Repositorio\obj\Debug\net6.0\ref\Repositorio.Entities.dll
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositorio\bin\Debug\net6.0\Repositorio.Entities.deps.json
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositorio\bin\Debug\net6.0\Repositorio.Entities.dll
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositorio\bin\Debug\net6.0\Repositorio.Entities.pdb
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositorio\obj\Debug\net6.0\Repositorio.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositorio\obj\Debug\net6.0\Repositorio.Entities.AssemblyInfoInputs.cache
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositorio\obj\Debug\net6.0\Repositorio.Entities.AssemblyInfo.cs
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositorio\obj\Debug\net6.0\Repositorio.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositorio\obj\Debug\net6.0\Repositorio.Entities.dll
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositorio\obj\Debug\net6.0\refint\Repositorio.Entities.dll
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositorio\obj\Debug\net6.0\Repositorio.Entities.pdb
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositorio\obj\Debug\net6.0\ref\Repositorio.Entities.dll
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositorio\bin\Debug\net6.0\Repositorio.Entities.deps.json
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositorio\bin\Debug\net6.0\Repositorio.Entities.dll
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositorio\bin\Debug\net6.0\Repositorio.Entities.pdb
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositorio\obj\Debug\net6.0\Repositorio.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositorio\obj\Debug\net6.0\Repositorio.Entities.AssemblyInfoInputs.cache
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositorio\obj\Debug\net6.0\Repositorio.Entities.AssemblyInfo.cs
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositorio\obj\Debug\net6.0\Repositorio.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositorio\obj\Debug\net6.0\Repositorio.Entities.dll
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositorio\obj\Debug\net6.0\refint\Repositorio.Entities.dll
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositorio\obj\Debug\net6.0\Repositorio.Entities.pdb
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositorio\obj\Debug\net6.0\ref\Repositorio.Entities.dll

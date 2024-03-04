@@ -1,0 +1,45 @@
+D:\u\Proyecto Grado\Repositprio.Data\bin\Debug\net6.0\Repositorio.Data.deps.json
+D:\u\Proyecto Grado\Repositprio.Data\bin\Debug\net6.0\Repositorio.Data.dll
+D:\u\Proyecto Grado\Repositprio.Data\bin\Debug\net6.0\Repositorio.Data.pdb
+D:\u\Proyecto Grado\Repositprio.Data\bin\Debug\net6.0\Repositorio.Entities.dll
+D:\u\Proyecto Grado\Repositprio.Data\bin\Debug\net6.0\Repositorio.Entities.pdb
+D:\u\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.csproj.AssemblyReference.cache
+D:\u\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\u\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.AssemblyInfoInputs.cache
+D:\u\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.AssemblyInfo.cs
+D:\u\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.csproj.CoreCompileInputs.cache
+D:\u\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.csproj.CopyComplete
+D:\u\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.dll
+D:\u\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\refint\Repositorio.Data.dll
+D:\u\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.pdb
+D:\u\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\ref\Repositorio.Data.dll
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositprio.Data\bin\Debug\net6.0\Repositorio.Data.deps.json
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositprio.Data\bin\Debug\net6.0\Repositorio.Data.dll
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositprio.Data\bin\Debug\net6.0\Repositorio.Data.pdb
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositprio.Data\bin\Debug\net6.0\Repositorio.Entities.dll
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositprio.Data\bin\Debug\net6.0\Repositorio.Entities.pdb
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.csproj.AssemblyReference.cache
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.AssemblyInfoInputs.cache
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.AssemblyInfo.cs
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.csproj.CoreCompileInputs.cache
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.csproj.CopyComplete
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.dll
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\refint\Repositorio.Data.dll
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.pdb
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\Proyecto Grado\Repositprio.Data\obj\Debug\net6.0\ref\Repositorio.Data.dll
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositprio.Data\bin\Debug\net6.0\Repositorio.Data.deps.json
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositprio.Data\bin\Debug\net6.0\Repositorio.Data.dll
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositprio.Data\bin\Debug\net6.0\Repositorio.Data.pdb
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositprio.Data\bin\Debug\net6.0\Repositorio.Entities.dll
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositprio.Data\bin\Debug\net6.0\Repositorio.Entities.pdb
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.csproj.AssemblyReference.cache
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.AssemblyInfoInputs.cache
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.AssemblyInfo.cs
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.csproj.CoreCompileInputs.cache
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.csproj.CopyComplete
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.dll
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositprio.Data\obj\Debug\net6.0\refint\Repositorio.Data.dll
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositprio.Data\obj\Debug\net6.0\Repositorio.Data.pdb
+C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositprio.Data\obj\Debug\net6.0\ref\Repositorio.Data.dll
