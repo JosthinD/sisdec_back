@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6Jt9Ph+CCUfNiyOuDP9HYKr/CsC6vMrQnyEAUojlHi9LzLnqDCwIfQyyDs5Tt93zeG6rJf24ohSJyO3DJupgnw==",
+  "dgSpecHash": "mjVIrl3biZwEWT49R1qXCLU4debktznkRYaw09903ROcwmUFI2Pc0QX9KhIGvuxuzXPPO+f8KDX+AgO036+toA==",
   "success": true,
-  "projectFilePath": "D:\\u\\sisdec_back\\Aplicacion.Interfaces\\Aplicacion.Interfaces.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\juanrodriguezr\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\juanrodriguezr\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\juanrodriguezr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\ProyectoGrado\\Back\\Aplicacion.Interfaces\\Aplicacion.Interfaces.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

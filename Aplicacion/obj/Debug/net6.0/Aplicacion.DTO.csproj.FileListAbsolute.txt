@@ -43,3 +43,14 @@ D:\u\sisdec_back\Aplicacion\obj\Debug\net6.0\Aplicacion.DTO.dll
 D:\u\sisdec_back\Aplicacion\obj\Debug\net6.0\refint\Aplicacion.DTO.dll
 D:\u\sisdec_back\Aplicacion\obj\Debug\net6.0\Aplicacion.DTO.pdb
 D:\u\sisdec_back\Aplicacion\obj\Debug\net6.0\ref\Aplicacion.DTO.dll
+C:\ProyectoGrado\Back\Aplicacion\bin\Debug\net6.0\Aplicacion.DTO.deps.json
+C:\ProyectoGrado\Back\Aplicacion\bin\Debug\net6.0\Aplicacion.DTO.dll
+C:\ProyectoGrado\Back\Aplicacion\bin\Debug\net6.0\Aplicacion.DTO.pdb
+C:\ProyectoGrado\Back\Aplicacion\obj\Debug\net6.0\Aplicacion.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectoGrado\Back\Aplicacion\obj\Debug\net6.0\Aplicacion.DTO.AssemblyInfoInputs.cache
+C:\ProyectoGrado\Back\Aplicacion\obj\Debug\net6.0\Aplicacion.DTO.AssemblyInfo.cs
+C:\ProyectoGrado\Back\Aplicacion\obj\Debug\net6.0\Aplicacion.DTO.csproj.CoreCompileInputs.cache
+C:\ProyectoGrado\Back\Aplicacion\obj\Debug\net6.0\Aplicacion.DTO.dll
+C:\ProyectoGrado\Back\Aplicacion\obj\Debug\net6.0\refint\Aplicacion.DTO.dll
+C:\ProyectoGrado\Back\Aplicacion\obj\Debug\net6.0\Aplicacion.DTO.pdb
+C:\ProyectoGrado\Back\Aplicacion\obj\Debug\net6.0\ref\Aplicacion.DTO.dll
