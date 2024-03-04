@@ -6,10 +6,10 @@ using Aplicacion.DTO;
 
 namespace Repositorio.Repositorio
 {
-    public class SoportRepository : IUsersRepository
+    public class UsersRepository : IUsersRepository
     {
         private readonly DataContext Context;
-        public SoportRepository(DataContext context) 
+        public UsersRepository(DataContext context) 
         {
             Context = context;
         }       
@@ -38,6 +38,11 @@ namespace Repositorio.Repositorio
             };
 
             return usuarioDto;
+        }
+
+        public async Task<List<Roles>> GetAllRoles()
+        {
+            return await Context.Roles.ToListAsync();
         }
     }
 }
