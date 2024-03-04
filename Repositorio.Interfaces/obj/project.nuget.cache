@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "meb+uGawFGQTwQaQVb97V6LZa2uZT7MR01bQpl7Zi2dvPTafhesruWumOJWGIRbvuJkcweBXtgCLHWYp0a6S3w==",
+  "dgSpecHash": "8MeKdHuAh9vbC4JJ01j+7CD9aACQkutveFasfhNc9K1IR6uOVBbq+hbnHAJFei+QJZXpG9i9TJBq+1M3tP8l1w==",
   "success": true,
-  "projectFilePath": "C:\\ProyectoGrado\\Back\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\u\\sisdec_back\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\juanrodriguezr\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\juanrodriguezr\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\juanrodriguezr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }
