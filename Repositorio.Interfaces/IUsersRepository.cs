@@ -1,9 +1,10 @@
-﻿using Repositorio.Entities;
+﻿using Aplicacion.DTO;
+using Repositorio.Entities;
 
 namespace Repositorio.Interfaces
 {
     public interface IUsersRepository
     {      
-        Task<users?> GetAllDataUser(string email);
+        Task<UsuariosDto?> GetAllDataUser(string email);
     }
 }

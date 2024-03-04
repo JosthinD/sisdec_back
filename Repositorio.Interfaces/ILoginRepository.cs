@@ -7,6 +7,6 @@ namespace Repositorio.Interfaces
         Task<bool> GetExistUser(string email);
         Task<bool> GetCoincidenciaPassword(string email, string password);
         Task<string?> GetRol(string email);
-        Task<users?> GetAllDataUser(string email);
+        Task<Usuarios?> GetAllDataUser(string email);
     }
 }

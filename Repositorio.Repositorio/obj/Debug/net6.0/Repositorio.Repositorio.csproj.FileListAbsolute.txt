@@ -75,3 +75,5 @@ D:\u\sisdec_back\Repositorio.Repositorio\bin\Debug\net6.0\Repositorio.Data.pdb
 D:\u\sisdec_back\Repositorio.Repositorio\bin\Debug\net6.0\Repositorio.Entities.pdb
 D:\u\sisdec_back\Repositorio.Repositorio\obj\Debug\net6.0\Repositorio.Repositorio.csproj.CopyComplete
 D:\u\sisdec_back\Repositorio.Repositorio\obj\Debug\net6.0\ref\Repositorio.Repositorio.dll
+D:\u\sisdec_back\Repositorio.Repositorio\bin\Debug\net6.0\Aplicacion.DTO.dll
+D:\u\sisdec_back\Repositorio.Repositorio\bin\Debug\net6.0\Aplicacion.DTO.pdb

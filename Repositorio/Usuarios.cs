@@ -17,7 +17,7 @@ namespace Repositorio.Entities
         public string PrimerApellido { get; set; }
         public string SegundoApellido { get; set; }
         [Required]
-        public string IdTipoDocumento { get; set; }
+        public int IdTipoDocumento { get; set; }
         [Required]
         public string NumeroDocumento { get; set; }
         [Required]
@@ -31,7 +31,7 @@ namespace Repositorio.Entities
         [Required]
         public int IdRol { get; set; }
         [Required]
-        public bool IdEstado { get; set; }
+        public int IdEstado { get; set; }
 
     }
 }

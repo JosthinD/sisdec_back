@@ -788,6 +788,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Aplicacion.DTO": "1.0.0",
           "Repositorio.Entities": "1.0.0"
         },
         "compile": {
@@ -801,6 +802,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Aplicacion.DTO": "1.0.0",
           "Repositorio.Data": "1.0.0",
           "Repositorio.Interfaces": "1.0.0"
         },

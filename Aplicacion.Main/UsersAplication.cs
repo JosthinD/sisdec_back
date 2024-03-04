@@ -15,9 +15,9 @@ namespace Aplicacion.Main
             _loginRepository = _LoginRepository;
         }
         
-        public async Task<ResponseDto<users?>> GetAllDataUser(string email)
+        public async Task<ResponseDto<UsuariosDto?>> GetAllDataUser(string email)
         {
-            var data = new ResponseDto<users?> { Data = new users() };
+            var data = new ResponseDto<UsuariosDto?> { Data = new UsuariosDto() };
             try
             {
                 bool existe = await _loginRepository.GetExistUser(email);

@@ -393,6 +393,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj": {
+                "projectPath": "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj"
+              },
               "D:\\u\\sisdec_back\\Repositorio\\Repositorio.Entities.csproj": {
                 "projectPath": "D:\\u\\sisdec_back\\Repositorio\\Repositorio.Entities.csproj"
               }
@@ -474,6 +477,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj": {
+                "projectPath": "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj"
+              },
               "D:\\u\\sisdec_back\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj": {
                 "projectPath": "D:\\u\\sisdec_back\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj"
               },

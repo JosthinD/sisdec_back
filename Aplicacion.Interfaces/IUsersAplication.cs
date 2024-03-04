@@ -5,6 +5,6 @@ namespace Aplicacion.Interfaces
 {
     public interface IUsersAplication
     {
-        Task<ResponseDto<users?>> GetAllDataUser(string email);
+        Task<ResponseDto<UsuariosDto?>> GetAllDataUser(string email);
     }
 }

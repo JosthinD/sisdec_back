@@ -735,6 +735,16 @@
           }
         }
       },
+      "Aplicacion.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Aplicacion.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Aplicacion.DTO.dll": {}
+        }
+      },
       "Repositorio.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -764,6 +774,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Aplicacion.DTO": "1.0.0",
           "Repositorio.Entities": "1.0.0"
         },
         "compile": {
@@ -1937,6 +1948,11 @@
         "version.txt"
       ]
     },
+    "Aplicacion.DTO/1.0.0": {
+      "type": "project",
+      "path": "../Aplicacion/Aplicacion.DTO.csproj",
+      "msbuildProject": "../Aplicacion/Aplicacion.DTO.csproj"
+    },
     "Repositorio.Data/1.0.0": {
       "type": "project",
       "path": "../Repositprio.Data/Repositorio.Data.csproj",
@@ -1955,6 +1971,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Aplicacion.DTO >= 1.0.0",
       "Repositorio.Data >= 1.0.0",
       "Repositorio.Interfaces >= 1.0.0"
     ]
@@ -1992,6 +2009,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj": {
+              "projectPath": "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj"
+            },
             "D:\\u\\sisdec_back\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj": {
               "projectPath": "D:\\u\\sisdec_back\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj"
             },

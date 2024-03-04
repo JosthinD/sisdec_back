@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v6.0": {
       "Repositorio.Interfaces/1.0.0": {
         "dependencies": {
+          "Aplicacion.DTO": "1.0.0",
           "Repositorio.Entities": "1.0.0"
         },
         "runtime": {
           "Repositorio.Interfaces.dll": {}
+        }
+      },
+      "Aplicacion.DTO/1.0.0": {
+        "runtime": {
+          "Aplicacion.DTO.dll": {}
         }
       },
       "Repositorio.Entities/1.0.0": {
@@ -23,6 +29,11 @@
   },
   "libraries": {
     "Repositorio.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aplicacion.DTO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

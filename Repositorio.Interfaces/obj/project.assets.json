@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Aplicacion.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Aplicacion.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Aplicacion.DTO.dll": {}
+        }
+      },
       "Repositorio.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "Aplicacion.DTO/1.0.0": {
+      "type": "project",
+      "path": "../Aplicacion/Aplicacion.DTO.csproj",
+      "msbuildProject": "../Aplicacion/Aplicacion.DTO.csproj"
+    },
     "Repositorio.Entities/1.0.0": {
       "type": "project",
       "path": "../Repositorio/Repositorio.Entities.csproj",
@@ -23,6 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Aplicacion.DTO >= 1.0.0",
       "Repositorio.Entities >= 1.0.0"
     ]
   },
@@ -59,6 +75,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj": {
+              "projectPath": "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj"
+            },
             "D:\\u\\sisdec_back\\Repositorio\\Repositorio.Entities.csproj": {
               "projectPath": "D:\\u\\sisdec_back\\Repositorio\\Repositorio.Entities.csproj"
             }
