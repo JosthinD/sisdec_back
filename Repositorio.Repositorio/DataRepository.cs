@@ -40,5 +40,17 @@ namespace Repositorio.Repositorio
                 return false; // Fallo al agregar el log
             }
         }
+        public async Task<List<Generos>> GetAllGenres()
+        {
+            return await Context.Generos.ToListAsync();
+        }
+        public async Task<List<TiposDocumento>> GetAllDocumentTypes()
+        {
+            return await Context.TiposDocumento.ToListAsync();
+        }
+        public async Task<List<Estados>> GetAllStates()
+        {
+            return await Context.Estados.ToListAsync();
+        }
     }
 }

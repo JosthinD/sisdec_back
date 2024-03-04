@@ -17,7 +17,7 @@ using System.Reflection;
 <<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 =======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59aa895d0d5224639f0ab427b46e43902c56679d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+116f37eb5ec1c1c3db17190ae989ca7babdbdc90")]
 >>>>>>> Camilo
 [assembly: System.Reflection.AssemblyProductAttribute("Repositorio.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Repositorio.Entities")]
