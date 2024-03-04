@@ -78,5 +78,199 @@ namespace Aplicacion.Main
                 return data;
             }
         }
+        public async Task<ResponseDto<List<UsuariosDto>>> GetAllUsers()
+        {
+            var data = new ResponseDto<List<UsuariosDto>> { Data = new List<UsuariosDto>() };
+            try
+            {
+                var usuarios = await _usersRepository.GetAllUsers();
+                if (!usuarios.Any())
+                {
+                    data.IsSuccess = false;
+                    data.Response = "400";
+                    data.Message = "Problema no se puede consultar los datos de los usuarios.";
+                    return data;
+                }                
+                data.IsSuccess = true;
+                data.Response = "200";
+                data.Message = "Todos los usuarios.";
+                data.Data = usuarios;
+                return data;
+            }
+            catch (Exception ex)
+            {
+                data.IsSuccess = false;
+                data.Message = "Error: " + ex.Message;
+                data.Response = "500";
+                return data;
+            }
+        }
+        public async Task<ResponseDto<bool>> CreateNewUser(Usuarios usuarioNuevo)
+        {
+            var data = new ResponseDto<bool> { Data = false };
+            try
+            {
+                bool existe = await _loginRepository.GetExistUser(usuarioNuevo.Correo);
+                if (existe)
+                {
+                    data.IsSuccess = !existe;
+                    data.Response = "400";
+                    data.Message = "Usuario ya creado, no se agregraron los datos.";
+                    return data;
+                }
+                var status = await _usersRepository.CreateNewUser(usuarioNuevo);
+                if (!status)
+                {
+                    data.IsSuccess = status;
+                    data.Response = "400";
+                    data.Message = "Problema al agregar usuario.";
+                    return data;
+                }
+                var log = await _dataRepository.AddNewLog(
+                    new Logs
+                    {
+                        IdAccion = 1,
+                        Descripcion = string.Format("Se Agrego nuevo usuario con numero de identificación {0}", usuarioNuevo.NumeroDocumento)
+                    });
+                data.IsSuccess = true;
+                data.Response = "200";
+                data.Message = "Usuario Agregado.";
+                data.Data = status;
+                return data;
+            }
+            catch (Exception ex)
+            {
+                data.IsSuccess = false;
+                data.Message = "Error: " + ex.Message;
+                data.Response = "500";
+                return data;
+            }
+        }
+        public async Task<ResponseDto<bool>> VerifyPasswordForUser(int userId, string contraseña)
+        {
+            var data = new ResponseDto<bool> { Data = false };
+            try
+            {
+                var status = await _usersRepository.VerifyPasswordForUser(userId, contraseña);
+                if (!status)
+                {
+                    data.IsSuccess = status;
+                    data.Response = "200";
+                    data.Message = "Problema no coincide la contraseña.";
+                    return data;
+                }               
+                data.IsSuccess = status;
+                data.Response = "200";
+                data.Message = "Contraseña correcta.";
+                data.Data = status;
+                return data;
+            }
+            catch (Exception ex)
+            {
+                data.IsSuccess = false;
+                data.Message = "Error: " + ex.Message;
+                data.Response = "500";
+                return data;
+            }
+        }
+        public async Task<ResponseDto<bool>> UpdateUserPassword(int userId, string nuevaContraseña)
+        {
+            var data = new ResponseDto<bool> { Data = false };
+            try
+            {
+                var status = await _usersRepository.UpdateUserPassword(userId, nuevaContraseña);
+                if (!status)
+                {
+                    data.IsSuccess = status;
+                    data.Response = "400";
+                    data.Message = "Usuario no existe, no se actualizo contraseña.";
+                    return data;
+                }
+                var log = await _dataRepository.AddNewLog(
+                    new Logs
+                    {
+                        IdAccion = 5,
+                        Descripcion = string.Format("Se realizo actualización contraseña con ID = {0}", userId)
+                    });
+                data.IsSuccess = true;
+                data.Response = "200";
+                data.Message = "Actualizacion Completada.";
+                data.Data = status;
+                return data;
+            }
+            catch (Exception ex)
+            {
+                data.IsSuccess = false;
+                data.Message = "Error: " + ex.Message;
+                data.Response = "500";
+                return data;
+            }
+        }
+        public async Task<ResponseDto<bool>> UpdateUserState(int userId, int nuevoEstadoId)
+        {
+            var data = new ResponseDto<bool> { Data = false };
+            try
+            {
+                var status = await _usersRepository.UpdateUserState(userId, nuevoEstadoId);
+                if (!status)
+                {
+                    data.IsSuccess = status;
+                    data.Response = "400";
+                    data.Message = "Usuario no existe, no se actualizo estado.";
+                    return data;
+                }
+                var log = await _dataRepository.AddNewLog(
+                    new Logs
+                    {
+                        IdAccion = 5,
+                        Descripcion = string.Format("Se realizo actualización estado con ID = {0}", userId)
+                    });
+                data.IsSuccess = true;
+                data.Response = "200";
+                data.Message = "Actualizacion Completada.";
+                data.Data = status;
+                return data;
+            }
+            catch (Exception ex)
+            {
+                data.IsSuccess = false;
+                data.Message = "Error: " + ex.Message;
+                data.Response = "500";
+                return data;
+            }
+        }
+        public async Task<ResponseDto<bool>> UpdateUserRole(int userId, int nuevoRolId)
+        {
+            var data = new ResponseDto<bool> { Data = false };
+            try
+            {
+                var status = await _usersRepository.UpdateUserRole(userId, nuevoRolId);
+                if (!status)
+                {
+                    data.IsSuccess = status;
+                    data.Response = "400";
+                    data.Message = "Usuario no existe, no se actualizo rol.";
+                    return data;
+                }
+                var log = await _dataRepository.AddNewLog(
+                    new Logs
+                    {
+                        IdAccion = 5,
+                        Descripcion = string.Format("Se realizo actualización rol con ID = {0}", userId)
+                    });
+                data.IsSuccess = true;
+                data.Response = "200";
+                data.Message = "Actualizacion Completada.";
+                data.Data = status;
+                return data;
+            }
+            catch (Exception ex)
+            {
+                data.IsSuccess = false;
+                data.Message = "Error: " + ex.Message;
+                data.Response = "500";
+                return data;
+            }
+        }
     }
 }
