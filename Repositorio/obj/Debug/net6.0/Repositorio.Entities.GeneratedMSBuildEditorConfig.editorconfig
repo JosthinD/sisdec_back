@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Repositorio.Entities
-build_property.ProjectDir = C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositorio\
+build_property.ProjectDir = D:\u\sisdec_back\Repositorio\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

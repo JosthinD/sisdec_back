@@ -10,8 +10,7 @@ namespace Repositorio.Data
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
         }
-        public DbSet<users>? Users { get; set; }
+        public DbSet<Usuarios>? Users { get; set; }
         public DbSet<Roles>? Roles { get; set; }
-        public DbSet<soport>? soports { get; set; }
     }
 }

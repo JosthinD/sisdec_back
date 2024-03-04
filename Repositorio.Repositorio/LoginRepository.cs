@@ -27,7 +27,7 @@ namespace Repositorio.Repositorio
                                 where user.correo == email
                                 select r.NomRol).FirstOrDefaultAsync();
         }
-        public async Task<Upusers?> GetAllDataUser(string email)
+        public async Task<users?> GetAllDataUser(string email)
         {
             return await Context.Users.FirstOrDefaultAsync(u => u.correo == email);
         }

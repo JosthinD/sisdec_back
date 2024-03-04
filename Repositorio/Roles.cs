@@ -8,15 +8,15 @@ using System.Threading.Tasks;
 
 namespace Repositorio.Entities
 {
-    [Table("ROL")]
+    [Table("ROLES")]
     public class Roles
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int IdRol { get; set; }
+        public int Id { get; set; }
 
         [Required]
         [StringLength(50)]
-        public string? NomRol { get; set; }
+        public string? Rol { get; set; }
     }
 }
