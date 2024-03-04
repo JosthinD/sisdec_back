@@ -6,5 +6,6 @@ namespace Repositorio.Interfaces
     public interface IUsersRepository
     {      
         Task<UsuariosDto?> GetAllDataUser(string email);
+        Task<bool> UpdateUserData(UpdateUserDataDto usuarioActualizado);
     }
 }
