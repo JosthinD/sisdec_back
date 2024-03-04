@@ -17,10 +17,20 @@ namespace Api.Controllers
             _usersAplication = usersAplication;
         }
 
-        [HttpGet(Name = "GetAllDataUser")]
+        [HttpGet("GetAllDataUser")]
         public async Task<IActionResult> GetAllDataUser(string email)
         {
             var result = await _usersAplication.GetAllDataUser(email);
+            if (result.IsSuccess)
+                return Ok(result);
+
+            return BadRequest(result);
+        }
+
+        [HttpGet("GetAllRoles")]
+        public async Task<IActionResult> GetAllRoles()
+        {
+            var result = await _usersAplication.GetAllRoles();
             if (result.IsSuccess)
                 return Ok(result);
 
