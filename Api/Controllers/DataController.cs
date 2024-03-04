@@ -24,5 +24,32 @@ namespace Api.Controllers
 
             return BadRequest(result);
         }
+        [HttpGet("GetAllGenres")]
+        public async Task<IActionResult> GetAllGenres()
+        {
+            var result = await _dataAplication.GetAllGenres();
+            if (result.IsSuccess)
+                return Ok(result);
+
+            return BadRequest(result);
+        }
+        [HttpGet("GetAllDocumentTypes")]
+        public async Task<IActionResult> GetAllDocumentTypes()
+        {
+            var result = await _dataAplication.GetAllDocumentTypes();
+            if (result.IsSuccess)
+                return Ok(result);
+
+            return BadRequest(result);
+        }
+        [HttpGet("GetAllStates")]
+        public async Task<IActionResult> GetAllStates()
+        {
+            var result = await _dataAplication.GetAllStates();
+            if (result.IsSuccess)
+                return Ok(result);
+
+            return BadRequest(result);
+        }
     }
 }

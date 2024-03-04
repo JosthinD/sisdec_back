@@ -7,5 +7,8 @@ namespace Repositorio.Interfaces
     {      
         Task<List<Roles>> GetAllRoles();
         Task<bool> AddNewLog(Logs logs);
+        Task<List<Generos>> GetAllGenres();
+        Task<List<TiposDocumento>> GetAllDocumentTypes();
+        Task<List<Estados>> GetAllStates();
     }
 }
