@@ -3,8 +3,8 @@ using Repositorio.Entities;
 
 namespace Repositorio.Interfaces
 {
-    public interface IUsersRepository
+    public interface IDataRepository
     {      
-        Task<UsuariosDto?> GetAllDataUser(string email);
+        Task<List<Roles>> GetAllRoles();
     }
 }

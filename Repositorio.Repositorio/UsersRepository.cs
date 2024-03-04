@@ -40,9 +40,5 @@ namespace Repositorio.Repositorio
             return usuarioDto;
         }
 
-        public async Task<List<Roles>> GetAllRoles()
-        {
-            return await Context.Roles.ToListAsync();
-        }
     }
 }

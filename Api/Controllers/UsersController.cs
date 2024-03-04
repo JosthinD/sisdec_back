@@ -26,15 +26,5 @@ namespace Api.Controllers
 
             return BadRequest(result);
         }
-
-        [HttpGet("GetAllRoles")]
-        public async Task<IActionResult> GetAllRoles()
-        {
-            var result = await _usersAplication.GetAllRoles();
-            if (result.IsSuccess)
-                return Ok(result);
-
-            return BadRequest(result);
-        }
     }
 }
