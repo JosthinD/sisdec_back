@@ -2,6 +2,7 @@
 using Aplicacion.Interfaces;
 using Repositorio.Entities;
 using Repositorio.Interfaces;
+using Repositorio.Repositorio;
 
 namespace Aplicacion.Main
 {
@@ -9,10 +10,12 @@ namespace Aplicacion.Main
     {
         private readonly IUsersRepository _usersRepository;
         private readonly ILoginRepository _loginRepository;
-        public UserAplication(IUsersRepository _UserRepository, ILoginRepository _LoginRepository)
+        private readonly IDataRepository _dataRepository;
+        public UserAplication(IUsersRepository _UserRepository, ILoginRepository _LoginRepository, IDataRepository _DataRepository)
         {
             _usersRepository = _UserRepository;
             _loginRepository = _LoginRepository;
+            _dataRepository = _DataRepository;
         }
         
         public async Task<ResponseDto<UsuariosDto?>> GetAllDataUser(string email)
@@ -43,30 +46,34 @@ namespace Aplicacion.Main
                 return data;
             }
         }
-        public async Task<ResponseDto<List<Roles?>>> GetAllRoles()
+        public async Task<ResponseDto<bool>> UpdateUserData(UpdateUserDataDto usuarioActualizado)
         {
-            var data = new ResponseDto<List<Roles>?> { Data = new List<Roles>() };
+            var data = new ResponseDto<bool> { Data = false };
             try
             {
-                var roles = await _usersRepository.GetAllRoles();
-                if (!roles.Any())
+                var status = await _usersRepository.UpdateUserData(usuarioActualizado);
+                if (!status)
                 {
-                    data.IsSuccess = false;
+                    data.IsSuccess = status;
                     data.Response = "400";
-                    data.Message = "Problemas en la consulta de roles a la base de datos.";
+                    data.Message = "Usuario no existe, no se actualizaron datos.";
                     return data;
                 }
-
+                var log = await _dataRepository.AddNewLog(
+                    new Logs { 
+                                IdAccion = 5,
+                                Descripcion =string.Format("Se realizo actualización de datos del usuario con ID = {0}", usuarioActualizado.IdUser) 
+                    });
                 data.IsSuccess = true;
                 data.Response = "200";
-                data.Message = "Roles";
-                data.Data = roles;
+                data.Message = "Actualizacion Completada.";
+                data.Data = status;
                 return data;
             }
             catch (Exception ex)
             {
                 data.IsSuccess = false;
-                data.Message = "Error: En consulta de Roles" + ex.Message;
+                data.Message = "Error: " + ex.Message;
                 data.Response = "500";
                 return data;
             }

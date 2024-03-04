@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Aplicacion.Main;
+using Aplicacion.DTO;
 
 namespace Api.Controllers
 {
@@ -26,11 +27,10 @@ namespace Api.Controllers
 
             return BadRequest(result);
         }
-
-        [HttpGet("GetAllRoles")]
-        public async Task<IActionResult> GetAllRoles()
+        [HttpPut("PutDataUser")]
+        public async Task<IActionResult> PutDataUser([FromBody] UpdateUserDataDto usuarioActualizado)
         {
-            var result = await _usersAplication.GetAllRoles();
+            var result = await _usersAplication.UpdateUserData(usuarioActualizado);
             if (result.IsSuccess)
                 return Ok(result);
 
