@@ -307,3 +307,4 @@ D:\u\sisdec_back\Api\obj\Debug\net6.0\scopedcss\bundle\Api.styles.css
 D:\u\sisdec_back\Api\obj\Debug\net6.0\Api.csproj.CopyComplete
 D:\u\sisdec_back\Api\obj\Debug\net6.0\Api.genruntimeconfig.cache
 D:\u\sisdec_back\Api\obj\Debug\net6.0\ref\Api.dll
+D:\u\sisdec_back\Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll

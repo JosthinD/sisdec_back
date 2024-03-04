@@ -4,13 +4,18 @@ using Repositorio.Data;
 using Repositorio.Interfaces;
 using Repositorio.Repositorio;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo { Title = "Api", Version = "v1" });
+});
+
 
 // Obtener la configuración
 var configuration = builder.Configuration;
