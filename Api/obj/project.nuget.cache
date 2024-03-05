@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mEcfx6Ff14oVdKnGy9SGINq90HHRZh1Vv+lY/iqXuEdW7atPusH4nsUp1nhq5k6LgCQoo5L4Nx4KeWEta+rezA==",
+  "dgSpecHash": "jQ0ryrTYZuQfDJu7XTev8gfObvqXMBj0p/TV2jPkXqWLZlR1EdKZKluG4xZSZxcDWrQ0lJhKS16dNAUtUaueww==",
   "success": true,
   "projectFilePath": "C:\\ProyectoGrado\\Back\\Api\\Api.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,7 @@
     "C:\\Users\\Josthin\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Josthin\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Josthin\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Josthin\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.5.0\\swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
     "C:\\Users\\Josthin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\Josthin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\Josthin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",

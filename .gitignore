@@ -1,0 +1,38 @@
+# Carpeta de dependencias NuGet
+*/bin/
+*/obj/
+
+# Archivos de usuario de Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Carpetas de Visual Studio
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Archivos de proyecto específicos de VS
+*.csproj.user
+*.cache
+*.ilk
+*.mdf
+*.ldf
+*.suo
+*.bak
+*.meta
+
+# Archivos de construcción de MSBuild
+[Bb]in/
+[Oo]bj/
