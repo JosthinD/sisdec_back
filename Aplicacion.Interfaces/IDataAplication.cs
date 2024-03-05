@@ -9,5 +9,7 @@ namespace Aplicacion.Interfaces
         Task<ResponseDto<List<Generos?>>> GetAllGenres();
         Task<ResponseDto<List<TiposDocumento?>>> GetAllDocumentTypes();
         Task<ResponseDto<List<Estados?>>> GetAllStates();
+        Task<ResponseDto<List<Logs?>>> GetAllLogs();
+        Task<ResponseDto<List<Logs?>>> GetLogsByActionIdAndDate(int? idAccion, DateTime? fecha);
     }
 }

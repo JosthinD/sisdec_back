@@ -14,7 +14,19 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Repositorio.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e24a7a1dc425086182b1763f6d5d73ad7a1541e")]
+>>>>>>> Camilo
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14a939ad765826c6989b3f2d28f829ffcd9d1121")]
+>>>>>>> Camilo
+>>>>>>> bcceb5ee917a7b9e0a4a09b6a419839f1b005b5a
 [assembly: System.Reflection.AssemblyProductAttribute("Repositorio.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Repositorio.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
