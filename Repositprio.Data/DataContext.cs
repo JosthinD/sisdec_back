@@ -17,5 +17,6 @@ namespace Repositorio.Data
         public DbSet<Generos>? Generos { get; set; }
         public DbSet<Logs>? Logs { get; set; }
         public DbSet<TiposDocumento>? TiposDocumento { get; set; }
+        public DbSet<Soportes>? Soportes { get; set; }
     }
 }

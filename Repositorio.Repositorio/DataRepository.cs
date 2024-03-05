@@ -52,5 +52,27 @@ namespace Repositorio.Repositorio
         {
             return await Context.Estados.ToListAsync();
         }
+        public async Task<List<Logs>> GetAllLogs()
+        {
+            return await Context.Logs.ToListAsync();
+        }
+        public async Task<List<Logs>> GetLogsByActionIdAndDate(int? idAccion, DateTime? fecha)
+        {
+            var query = Context.Logs.AsQueryable();
+
+            if (idAccion.HasValue)
+            {
+                var idAccionValue = idAccion.Value;
+                query = query.Where(l => l.IdAccion == idAccionValue);
+            }
+
+            if (fecha.HasValue)
+            {
+                var fechaTruncada = fecha.Value.Date;
+                query = query.Where(l => l.DateLog.Date == fechaTruncada);
+            }
+
+            return await query.ToListAsync();
+        }
     }
 }

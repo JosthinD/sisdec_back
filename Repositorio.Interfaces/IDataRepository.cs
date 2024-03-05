@@ -10,5 +10,7 @@ namespace Repositorio.Interfaces
         Task<List<Generos>> GetAllGenres();
         Task<List<TiposDocumento>> GetAllDocumentTypes();
         Task<List<Estados>> GetAllStates();
+        Task<List<Logs>> GetAllLogs();
+        Task<List<Logs>> GetLogsByActionIdAndDate(int? idAccion, DateTime? fecha);
     }
 }

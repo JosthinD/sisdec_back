@@ -20,6 +20,6 @@ namespace Repositorio.Entities
         [StringLength(50)]
         public string? Descripcion { get; set; }
         [Required]
-        public DateTime? DateLog { get; set; }
+        public DateTime DateLog { get; set; }
     }
 }
