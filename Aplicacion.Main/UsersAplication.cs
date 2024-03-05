@@ -190,7 +190,7 @@ namespace Aplicacion.Main
                     new Logs
                     {
                         IdAccion = 5,
-                        Descripcion = string.Format("Se realizo actualización contraseña con ID = {0}", userId)
+                        Descripcion = string.Format("Se realizo actualización de contraseña del usuario con ID = {0}", userId)
                     });
                 data.IsSuccess = true;
                 data.Response = "200";
@@ -223,7 +223,7 @@ namespace Aplicacion.Main
                     new Logs
                     {
                         IdAccion = 5,
-                        Descripcion = string.Format("Se realizo actualización estado con ID = {0}", userId)
+                        Descripcion = string.Format("Se realizo actualización de estado al usuario con ID = {0}", userId)
                     });
                 data.IsSuccess = true;
                 data.Response = "200";
@@ -256,7 +256,7 @@ namespace Aplicacion.Main
                     new Logs
                     {
                         IdAccion = 5,
-                        Descripcion = string.Format("Se realizo actualización rol con ID = {0}", userId)
+                        Descripcion = string.Format("Se realizo actualización de rol al usuario con ID = {0}", userId)
                     });
                 data.IsSuccess = true;
                 data.Response = "200";

@@ -51,5 +51,23 @@ namespace Api.Controllers
 
             return BadRequest(result);
         }
+        [HttpGet("GetAllLogs")]
+        public async Task<IActionResult> GetAllLogs()
+        {
+            var result = await _dataAplication.GetAllLogs();
+            if (result.IsSuccess)
+                return Ok(result);
+
+            return BadRequest(result);
+        }
+        [HttpGet("GetLogsByActionIdAndDate")]
+        public async Task<IActionResult> GetLogsByActionIdAndDate(int? idAccion, DateTime? fecha)
+        {
+            var result = await _dataAplication.GetLogsByActionIdAndDate(idAccion, fecha);
+            if (result.IsSuccess)
+                return Ok(result);
+
+            return BadRequest(result);
+        }
     }
 }

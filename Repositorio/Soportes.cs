@@ -8,18 +8,21 @@ using System.Threading.Tasks;
 
 namespace Repositorio.Entities
 {
-    [Table("LOGS")]
-    public class Logs
+    [Table("SOPORTES")]
+    public class Soportes
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [Required]
-        public int? IdAccion { get; set; }
+        public string? Asunto { get; set; }
         [Required]
-        [StringLength(50)]
         public string? Descripcion { get; set; }
         [Required]
-        public DateTime DateLog { get; set; }
+        public int IdUsuario { get; set; }
+        [Required]
+        public DateTime Fecha { get; set; }
+        [Required]
+        public int IdEstado { get; set; }
     }
 }

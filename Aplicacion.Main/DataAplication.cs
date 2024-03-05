@@ -126,5 +126,61 @@ namespace Aplicacion.Main
                 return data;
             }
         }
+        public async Task<ResponseDto<List<Logs?>>> GetAllLogs()
+        {
+            var data = new ResponseDto<List<Logs>?> { Data = new List<Logs>() };
+            try
+            {
+                var logs = await _dataRepository.GetAllLogs();
+                if (!logs.Any())
+                {
+                    data.IsSuccess = false;
+                    data.Response = "400";
+                    data.Message = "Problemas en la consulta de logs a la base de datos.";
+                    return data;
+                }
+
+                data.IsSuccess = true;
+                data.Response = "200";
+                data.Message = "Logs";
+                data.Data = logs;
+                return data;
+            }
+            catch (Exception ex)
+            {
+                data.IsSuccess = false;
+                data.Message = "Error: En consulta de Logs" + ex.Message;
+                data.Response = "500";
+                return data;
+            }
+        }
+        public async Task<ResponseDto<List<Logs?>>> GetLogsByActionIdAndDate(int? idAccion, DateTime? fecha)
+        {
+            var data = new ResponseDto<List<Logs>?> { Data = new List<Logs>() };
+            try
+            {
+                var logs = await _dataRepository.GetLogsByActionIdAndDate(idAccion,fecha);
+                if (!logs.Any())
+                {
+                    data.IsSuccess = false;
+                    data.Response = "200";
+                    data.Message = "No hay datos con esos filtros";
+                    return data;
+                }
+
+                data.IsSuccess = true;
+                data.Response = "200";
+                data.Message = "Logs";
+                data.Data = logs;
+                return data;
+            }
+            catch (Exception ex)
+            {
+                data.IsSuccess = false;
+                data.Message = "Error: En consulta de Logs" + ex.Message;
+                data.Response = "500";
+                return data;
+            }
+        }
     }
 }
