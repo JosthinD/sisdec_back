@@ -51,8 +51,6 @@ namespace Repositorio.Repositorio
             usuario.SegundoNombre = usuarioActualizado.SegundoNombre;
             usuario.PrimerApellido = usuarioActualizado.PrimerApellido;
             usuario.SegundoApellido = usuarioActualizado.SegundoApellido;
-            usuario.IdTipoDocumento = usuarioActualizado.IdTipoDocumento;
-            usuario.IdGenero = usuarioActualizado.IdGenero;
             usuario.Telefono = usuarioActualizado.Telefono;
             usuario.Correo = usuarioActualizado.Correo;
 
@@ -104,9 +102,11 @@ namespace Repositorio.Repositorio
             }
         }
 
+
         public async Task<bool> VerifyPasswordForUser(int userId, string contraseña)
         {
             // Buscar el usuario por su Id
+
             var usuario = await Context.Usuarios.FindAsync(userId);
 
             // Verificar si se encontró el usuario y si la contraseña coincide
