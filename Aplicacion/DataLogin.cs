@@ -9,5 +9,6 @@ namespace Aplicacion.DTO
     public class DataLogin
     {
         public string? Rol { get; set; }
+
     }
 }
