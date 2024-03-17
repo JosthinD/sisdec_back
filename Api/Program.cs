@@ -34,6 +34,8 @@ builder.Services.AddScoped<IDataAplication, DataAplication>();
 builder.Services.AddScoped<IDataRepository, DataRepository>();
 builder.Services.AddScoped<ISupportAplication, SupportAplication>();
 builder.Services.AddScoped<ISupportRepository, SupportRepository>();
+builder.Services.AddScoped<IDocumentsAplication, DocumentsAplication>();
+builder.Services.AddScoped<IDocumentsRepository, DocumentsRepository>();
 
 var app = builder.Build();
 

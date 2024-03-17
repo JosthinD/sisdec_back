@@ -66,7 +66,7 @@ namespace Repositorio.Repositorio
 
                 return false; // El soporte no se encontró
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Manejar cualquier excepción aquí, por ejemplo, registrarla o devolver un mensaje de error
                 return false; // Fallo al actualizar el estado del soporte
@@ -84,7 +84,7 @@ namespace Repositorio.Repositorio
 
                 return true; // El soporte se guardó correctamente
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Manejar cualquier excepción aquí, por ejemplo, registrarla o devolver un mensaje de error
                 return false; // Fallo al guardar el soporte
