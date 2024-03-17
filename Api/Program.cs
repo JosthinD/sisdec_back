@@ -4,13 +4,18 @@ using Repositorio.Data;
 using Repositorio.Interfaces;
 using Repositorio.Repositorio;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo { Title = "Api", Version = "v1" });
+});
+
 
 // Obtener la configuración
 var configuration = builder.Configuration;
@@ -24,8 +29,11 @@ builder.Services.AddDbContext<DataContext>(options =>
 builder.Services.AddScoped<ILoginAplication, LoginAplication>();
 builder.Services.AddScoped<ILoginRepository, LoginRepository>();
 builder.Services.AddScoped<IUsersAplication, UserAplication>();
-builder.Services.AddScoped<IUsersRepository, SoportRepository>();
-builder.Services.AddScoped<ISoportRepository, SoportRepository>();
+builder.Services.AddScoped<IUsersRepository, UsersRepository>();
+builder.Services.AddScoped<IDataAplication, DataAplication>();
+builder.Services.AddScoped<IDataRepository, DataRepository>();
+builder.Services.AddScoped<ISupportAplication, SupportAplication>();
+builder.Services.AddScoped<ISupportRepository, SupportRepository>();
 
 var app = builder.Build();
 

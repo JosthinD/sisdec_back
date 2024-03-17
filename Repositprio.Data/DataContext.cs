@@ -10,8 +10,13 @@ namespace Repositorio.Data
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
         }
-        public DbSet<users>? Users { get; set; }
+        public DbSet<Usuarios>? Usuarios { get; set; }
         public DbSet<Roles>? Roles { get; set; }
-        public DbSet<soport>? soports { get; set; }
+        public DbSet<Acciones>? Acciones { get; set; }
+        public DbSet<Estados>? Estados { get; set; }
+        public DbSet<Generos>? Generos { get; set; }
+        public DbSet<Logs>? Logs { get; set; }
+        public DbSet<TiposDocumento>? TiposDocumento { get; set; }
+        public DbSet<Soportes>? Soportes { get; set; }
     }
 }

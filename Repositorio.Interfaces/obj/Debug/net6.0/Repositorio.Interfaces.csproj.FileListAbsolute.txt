@@ -35,3 +35,39 @@ C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repos
 C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositorio.Interfaces\obj\Debug\net6.0\refint\Repositorio.Interfaces.dll
 C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositorio.Interfaces\obj\Debug\net6.0\Repositorio.Interfaces.pdb
 C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Repositorio.Interfaces\obj\Debug\net6.0\ref\Repositorio.Interfaces.dll
+D:\u\sisdec_back\Repositorio.Interfaces\bin\Debug\net6.0\Repositorio.Interfaces.deps.json
+D:\u\sisdec_back\Repositorio.Interfaces\bin\Debug\net6.0\Repositorio.Interfaces.dll
+D:\u\sisdec_back\Repositorio.Interfaces\bin\Debug\net6.0\Repositorio.Interfaces.pdb
+D:\u\sisdec_back\Repositorio.Interfaces\bin\Debug\net6.0\Repositorio.Entities.dll
+D:\u\sisdec_back\Repositorio.Interfaces\bin\Debug\net6.0\Repositorio.Entities.pdb
+D:\u\sisdec_back\Repositorio.Interfaces\obj\Debug\net6.0\Repositorio.Interfaces.csproj.AssemblyReference.cache
+D:\u\sisdec_back\Repositorio.Interfaces\obj\Debug\net6.0\Repositorio.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\u\sisdec_back\Repositorio.Interfaces\obj\Debug\net6.0\Repositorio.Interfaces.AssemblyInfoInputs.cache
+D:\u\sisdec_back\Repositorio.Interfaces\obj\Debug\net6.0\Repositorio.Interfaces.AssemblyInfo.cs
+D:\u\sisdec_back\Repositorio.Interfaces\obj\Debug\net6.0\Repositorio.Interfaces.csproj.CoreCompileInputs.cache
+D:\u\sisdec_back\Repositorio.Interfaces\obj\Debug\net6.0\Repositorio.Interfaces.sourcelink.json
+D:\u\sisdec_back\Repositorio.Interfaces\obj\Debug\net6.0\Repositorio.Interfaces.csproj.CopyComplete
+D:\u\sisdec_back\Repositorio.Interfaces\obj\Debug\net6.0\Repositorio.Interfaces.dll
+D:\u\sisdec_back\Repositorio.Interfaces\obj\Debug\net6.0\refint\Repositorio.Interfaces.dll
+D:\u\sisdec_back\Repositorio.Interfaces\obj\Debug\net6.0\Repositorio.Interfaces.pdb
+D:\u\sisdec_back\Repositorio.Interfaces\obj\Debug\net6.0\ref\Repositorio.Interfaces.dll
+D:\u\sisdec_back\Repositorio.Interfaces\bin\Debug\net6.0\Aplicacion.DTO.dll
+D:\u\sisdec_back\Repositorio.Interfaces\bin\Debug\net6.0\Aplicacion.DTO.pdb
+D:\sisdec\Repositorio.Interfaces\bin\Debug\net6.0\Repositorio.Interfaces.deps.json
+D:\sisdec\Repositorio.Interfaces\bin\Debug\net6.0\Repositorio.Interfaces.dll
+D:\sisdec\Repositorio.Interfaces\bin\Debug\net6.0\Repositorio.Interfaces.pdb
+D:\sisdec\Repositorio.Interfaces\bin\Debug\net6.0\Aplicacion.DTO.dll
+D:\sisdec\Repositorio.Interfaces\bin\Debug\net6.0\Repositorio.Entities.dll
+D:\sisdec\Repositorio.Interfaces\bin\Debug\net6.0\Aplicacion.DTO.pdb
+D:\sisdec\Repositorio.Interfaces\bin\Debug\net6.0\Repositorio.Entities.pdb
+D:\sisdec\Repositorio.Interfaces\obj\Debug\net6.0\Repositorio.Interfaces.csproj.AssemblyReference.cache
+D:\sisdec\Repositorio.Interfaces\obj\Debug\net6.0\Repositorio.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\sisdec\Repositorio.Interfaces\obj\Debug\net6.0\Repositorio.Interfaces.AssemblyInfoInputs.cache
+D:\sisdec\Repositorio.Interfaces\obj\Debug\net6.0\Repositorio.Interfaces.AssemblyInfo.cs
+D:\sisdec\Repositorio.Interfaces\obj\Debug\net6.0\Repositorio.Interfaces.csproj.CoreCompileInputs.cache
+D:\sisdec\Repositorio.Interfaces\obj\Debug\net6.0\Repositorio.Interfaces.sourcelink.json
+D:\sisdec\Repositorio.Interfaces\obj\Debug\net6.0\Reposito.F49BD06A.Up2Date
+D:\sisdec\Repositorio.Interfaces\obj\Debug\net6.0\Repositorio.Interfaces.dll
+D:\sisdec\Repositorio.Interfaces\obj\Debug\net6.0\refint\Repositorio.Interfaces.dll
+D:\sisdec\Repositorio.Interfaces\obj\Debug\net6.0\Repositorio.Interfaces.pdb
+D:\sisdec\Repositorio.Interfaces\obj\Debug\net6.0\ref\Repositorio.Interfaces.dll

@@ -788,6 +788,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Aplicacion.DTO": "1.0.0",
           "Repositorio.Entities": "1.0.0"
         },
         "compile": {
@@ -801,6 +802,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Aplicacion.DTO": "1.0.0",
           "Repositorio.Data": "1.0.0",
           "Repositorio.Interfaces": "1.0.0"
         },
@@ -2015,23 +2017,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Josthin\\.nuget\\packages\\": {},
+    "C:\\Users\\juanrodriguezr\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Josthin\\Documents\\UNIVERSIDAD\\PROYECTO GRADO SOFTWARE\\back_sisdec\\Aplicacion.Main\\Aplicacion.Main.csproj",
+      "projectUniqueName": "D:\\sisdec\\Aplicacion.Main\\Aplicacion.Main.csproj",
       "projectName": "Aplicacion.Main",
-      "projectPath": "C:\\Users\\Josthin\\Documents\\UNIVERSIDAD\\PROYECTO GRADO SOFTWARE\\back_sisdec\\Aplicacion.Main\\Aplicacion.Main.csproj",
-      "packagesPath": "C:\\Users\\Josthin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Josthin\\Documents\\UNIVERSIDAD\\PROYECTO GRADO SOFTWARE\\back_sisdec\\Aplicacion.Main\\obj\\",
+      "projectPath": "D:\\sisdec\\Aplicacion.Main\\Aplicacion.Main.csproj",
+      "packagesPath": "C:\\Users\\juanrodriguezr\\.nuget\\packages\\",
+      "outputPath": "D:\\sisdec\\Aplicacion.Main\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Josthin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\juanrodriguezr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2047,17 +2049,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Josthin\\Documents\\UNIVERSIDAD\\PROYECTO GRADO SOFTWARE\\back_sisdec\\Aplicacion.Interfaces\\Aplicacion.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\Josthin\\Documents\\UNIVERSIDAD\\PROYECTO GRADO SOFTWARE\\back_sisdec\\Aplicacion.Interfaces\\Aplicacion.Interfaces.csproj"
+            "D:\\sisdec\\Aplicacion.Interfaces\\Aplicacion.Interfaces.csproj": {
+              "projectPath": "D:\\sisdec\\Aplicacion.Interfaces\\Aplicacion.Interfaces.csproj"
             },
-            "C:\\Users\\Josthin\\Documents\\UNIVERSIDAD\\PROYECTO GRADO SOFTWARE\\back_sisdec\\Aplicacion\\Aplicacion.DTO.csproj": {
-              "projectPath": "C:\\Users\\Josthin\\Documents\\UNIVERSIDAD\\PROYECTO GRADO SOFTWARE\\back_sisdec\\Aplicacion\\Aplicacion.DTO.csproj"
+            "D:\\sisdec\\Aplicacion\\Aplicacion.DTO.csproj": {
+              "projectPath": "D:\\sisdec\\Aplicacion\\Aplicacion.DTO.csproj"
             },
-            "C:\\Users\\Josthin\\Documents\\UNIVERSIDAD\\PROYECTO GRADO SOFTWARE\\back_sisdec\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\Josthin\\Documents\\UNIVERSIDAD\\PROYECTO GRADO SOFTWARE\\back_sisdec\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj"
+            "D:\\sisdec\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj": {
+              "projectPath": "D:\\sisdec\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj"
             },
-            "C:\\Users\\Josthin\\Documents\\UNIVERSIDAD\\PROYECTO GRADO SOFTWARE\\back_sisdec\\Repositorio.Repositorio\\Repositorio.Repositorio.csproj": {
-              "projectPath": "C:\\Users\\Josthin\\Documents\\UNIVERSIDAD\\PROYECTO GRADO SOFTWARE\\back_sisdec\\Repositorio.Repositorio\\Repositorio.Repositorio.csproj"
+            "D:\\sisdec\\Repositorio.Repositorio\\Repositorio.Repositorio.csproj": {
+              "projectPath": "D:\\sisdec\\Repositorio.Repositorio\\Repositorio.Repositorio.csproj"
             }
           }
         }
@@ -2066,6 +2068,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2087,7 +2094,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -45,3 +45,39 @@ C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Aplic
 C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Aplicacion.Interfaces\obj\Debug\net6.0\refint\Aplicacion.Interfaces.dll
 C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicacion.Interfaces.pdb
 C:\Users\Josthin\Documents\UNIVERSIDAD\PROYECTO GRADO SOFTWARE\back_sisdec\Aplicacion.Interfaces\obj\Debug\net6.0\ref\Aplicacion.Interfaces.dll
+D:\u\sisdec_back\Aplicacion.Interfaces\bin\Debug\net6.0\Aplicacion.Interfaces.deps.json
+D:\u\sisdec_back\Aplicacion.Interfaces\bin\Debug\net6.0\Aplicacion.Interfaces.dll
+D:\u\sisdec_back\Aplicacion.Interfaces\bin\Debug\net6.0\Aplicacion.Interfaces.pdb
+D:\u\sisdec_back\Aplicacion.Interfaces\bin\Debug\net6.0\Aplicacion.DTO.dll
+D:\u\sisdec_back\Aplicacion.Interfaces\bin\Debug\net6.0\Repositorio.Entities.dll
+D:\u\sisdec_back\Aplicacion.Interfaces\bin\Debug\net6.0\Aplicacion.DTO.pdb
+D:\u\sisdec_back\Aplicacion.Interfaces\bin\Debug\net6.0\Repositorio.Entities.pdb
+D:\u\sisdec_back\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicacion.Interfaces.csproj.AssemblyReference.cache
+D:\u\sisdec_back\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicacion.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\u\sisdec_back\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicacion.Interfaces.AssemblyInfoInputs.cache
+D:\u\sisdec_back\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicacion.Interfaces.AssemblyInfo.cs
+D:\u\sisdec_back\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicacion.Interfaces.csproj.CoreCompileInputs.cache
+D:\u\sisdec_back\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicacion.Interfaces.sourcelink.json
+D:\u\sisdec_back\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicacion.Interfaces.csproj.CopyComplete
+D:\u\sisdec_back\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicacion.Interfaces.dll
+D:\u\sisdec_back\Aplicacion.Interfaces\obj\Debug\net6.0\refint\Aplicacion.Interfaces.dll
+D:\u\sisdec_back\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicacion.Interfaces.pdb
+D:\u\sisdec_back\Aplicacion.Interfaces\obj\Debug\net6.0\ref\Aplicacion.Interfaces.dll
+D:\sisdec\Aplicacion.Interfaces\bin\Debug\net6.0\Aplicacion.Interfaces.deps.json
+D:\sisdec\Aplicacion.Interfaces\bin\Debug\net6.0\Aplicacion.Interfaces.dll
+D:\sisdec\Aplicacion.Interfaces\bin\Debug\net6.0\Aplicacion.Interfaces.pdb
+D:\sisdec\Aplicacion.Interfaces\bin\Debug\net6.0\Aplicacion.DTO.dll
+D:\sisdec\Aplicacion.Interfaces\bin\Debug\net6.0\Repositorio.Entities.dll
+D:\sisdec\Aplicacion.Interfaces\bin\Debug\net6.0\Aplicacion.DTO.pdb
+D:\sisdec\Aplicacion.Interfaces\bin\Debug\net6.0\Repositorio.Entities.pdb
+D:\sisdec\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicacion.Interfaces.csproj.AssemblyReference.cache
+D:\sisdec\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicacion.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\sisdec\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicacion.Interfaces.AssemblyInfoInputs.cache
+D:\sisdec\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicacion.Interfaces.AssemblyInfo.cs
+D:\sisdec\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicacion.Interfaces.csproj.CoreCompileInputs.cache
+D:\sisdec\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicacion.Interfaces.sourcelink.json
+D:\sisdec\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicaci.B5451E09.Up2Date
+D:\sisdec\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicacion.Interfaces.dll
+D:\sisdec\Aplicacion.Interfaces\obj\Debug\net6.0\refint\Aplicacion.Interfaces.dll
+D:\sisdec\Aplicacion.Interfaces\obj\Debug\net6.0\Aplicacion.Interfaces.pdb
+D:\sisdec\Aplicacion.Interfaces\obj\Debug\net6.0\ref\Aplicacion.Interfaces.dll
