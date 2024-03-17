@@ -43,3 +43,15 @@ D:\u\sisdec_back\Repositorio\bin\Debug\net6.0\Repositorio.Entities.deps.json
 D:\u\sisdec_back\Repositorio\bin\Debug\net6.0\Repositorio.Entities.dll
 D:\u\sisdec_back\Repositorio\bin\Debug\net6.0\Repositorio.Entities.pdb
 D:\u\sisdec_back\Repositorio\obj\Debug\net6.0\ref\Repositorio.Entities.dll
+D:\sisdec\Repositorio\bin\Debug\net6.0\Repositorio.Entities.deps.json
+D:\sisdec\Repositorio\bin\Debug\net6.0\Repositorio.Entities.dll
+D:\sisdec\Repositorio\bin\Debug\net6.0\Repositorio.Entities.pdb
+D:\sisdec\Repositorio\obj\Debug\net6.0\Repositorio.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\sisdec\Repositorio\obj\Debug\net6.0\Repositorio.Entities.AssemblyInfoInputs.cache
+D:\sisdec\Repositorio\obj\Debug\net6.0\Repositorio.Entities.AssemblyInfo.cs
+D:\sisdec\Repositorio\obj\Debug\net6.0\Repositorio.Entities.csproj.CoreCompileInputs.cache
+D:\sisdec\Repositorio\obj\Debug\net6.0\Repositorio.Entities.sourcelink.json
+D:\sisdec\Repositorio\obj\Debug\net6.0\Repositorio.Entities.dll
+D:\sisdec\Repositorio\obj\Debug\net6.0\refint\Repositorio.Entities.dll
+D:\sisdec\Repositorio\obj\Debug\net6.0\Repositorio.Entities.pdb
+D:\sisdec\Repositorio\obj\Debug\net6.0\ref\Repositorio.Entities.dll

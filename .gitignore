@@ -400,3 +400,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# Ignorar carpetas Debug/net6.0
+*/Debug/net6.0/
