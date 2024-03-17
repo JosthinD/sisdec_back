@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\u\\sisdec_back\\Aplicacion.Main\\Aplicacion.Main.csproj": {}
+    "D:\\sisdec\\Aplicacion.Main\\Aplicacion.Main.csproj": {}
   },
   "projects": {
-    "D:\\u\\sisdec_back\\Aplicacion.Interfaces\\Aplicacion.Interfaces.csproj": {
+    "D:\\sisdec\\Aplicacion.Interfaces\\Aplicacion.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\u\\sisdec_back\\Aplicacion.Interfaces\\Aplicacion.Interfaces.csproj",
+        "projectUniqueName": "D:\\sisdec\\Aplicacion.Interfaces\\Aplicacion.Interfaces.csproj",
         "projectName": "Aplicacion.Interfaces",
-        "projectPath": "D:\\u\\sisdec_back\\Aplicacion.Interfaces\\Aplicacion.Interfaces.csproj",
+        "projectPath": "D:\\sisdec\\Aplicacion.Interfaces\\Aplicacion.Interfaces.csproj",
         "packagesPath": "C:\\Users\\juanrodriguezr\\.nuget\\packages\\",
-        "outputPath": "D:\\u\\sisdec_back\\Aplicacion.Interfaces\\obj\\",
+        "outputPath": "D:\\sisdec\\Aplicacion.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj": {
-                "projectPath": "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj"
+              "D:\\sisdec\\Aplicacion\\Aplicacion.DTO.csproj": {
+                "projectPath": "D:\\sisdec\\Aplicacion\\Aplicacion.DTO.csproj"
               },
-              "D:\\u\\sisdec_back\\Repositorio\\Repositorio.Entities.csproj": {
-                "projectPath": "D:\\u\\sisdec_back\\Repositorio\\Repositorio.Entities.csproj"
+              "D:\\sisdec\\Repositorio\\Repositorio.Entities.csproj": {
+                "projectPath": "D:\\sisdec\\Repositorio\\Repositorio.Entities.csproj"
               }
             }
           }
@@ -48,7 +48,9 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "default"
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -65,37 +67,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\u\\sisdec_back\\Aplicacion.Main\\Aplicacion.Main.csproj": {
+    "D:\\sisdec\\Aplicacion.Main\\Aplicacion.Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\u\\sisdec_back\\Aplicacion.Main\\Aplicacion.Main.csproj",
+        "projectUniqueName": "D:\\sisdec\\Aplicacion.Main\\Aplicacion.Main.csproj",
         "projectName": "Aplicacion.Main",
-        "projectPath": "D:\\u\\sisdec_back\\Aplicacion.Main\\Aplicacion.Main.csproj",
+        "projectPath": "D:\\sisdec\\Aplicacion.Main\\Aplicacion.Main.csproj",
         "packagesPath": "C:\\Users\\juanrodriguezr\\.nuget\\packages\\",
-        "outputPath": "D:\\u\\sisdec_back\\Aplicacion.Main\\obj\\",
+        "outputPath": "D:\\sisdec\\Aplicacion.Main\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -117,17 +105,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\u\\sisdec_back\\Aplicacion.Interfaces\\Aplicacion.Interfaces.csproj": {
-                "projectPath": "D:\\u\\sisdec_back\\Aplicacion.Interfaces\\Aplicacion.Interfaces.csproj"
+              "D:\\sisdec\\Aplicacion.Interfaces\\Aplicacion.Interfaces.csproj": {
+                "projectPath": "D:\\sisdec\\Aplicacion.Interfaces\\Aplicacion.Interfaces.csproj"
               },
-              "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj": {
-                "projectPath": "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj"
+              "D:\\sisdec\\Aplicacion\\Aplicacion.DTO.csproj": {
+                "projectPath": "D:\\sisdec\\Aplicacion\\Aplicacion.DTO.csproj"
               },
-              "D:\\u\\sisdec_back\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj": {
-                "projectPath": "D:\\u\\sisdec_back\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj"
+              "D:\\sisdec\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj": {
+                "projectPath": "D:\\sisdec\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj"
               },
-              "D:\\u\\sisdec_back\\Repositorio.Repositorio\\Repositorio.Repositorio.csproj": {
-                "projectPath": "D:\\u\\sisdec_back\\Repositorio.Repositorio\\Repositorio.Repositorio.csproj"
+              "D:\\sisdec\\Repositorio.Repositorio\\Repositorio.Repositorio.csproj": {
+                "projectPath": "D:\\sisdec\\Repositorio.Repositorio\\Repositorio.Repositorio.csproj"
               }
             }
           }
@@ -138,7 +126,9 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "default"
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -155,37 +145,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj": {
+    "D:\\sisdec\\Aplicacion\\Aplicacion.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj",
+        "projectUniqueName": "D:\\sisdec\\Aplicacion\\Aplicacion.DTO.csproj",
         "projectName": "Aplicacion.DTO",
-        "projectPath": "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj",
+        "projectPath": "D:\\sisdec\\Aplicacion\\Aplicacion.DTO.csproj",
         "packagesPath": "C:\\Users\\juanrodriguezr\\.nuget\\packages\\",
-        "outputPath": "D:\\u\\sisdec_back\\Aplicacion\\obj\\",
+        "outputPath": "D:\\sisdec\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -215,7 +191,9 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "default"
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -232,37 +210,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\u\\sisdec_back\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj": {
+    "D:\\sisdec\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\u\\sisdec_back\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj",
+        "projectUniqueName": "D:\\sisdec\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj",
         "projectName": "Repositorio.Interfaces",
-        "projectPath": "D:\\u\\sisdec_back\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj",
+        "projectPath": "D:\\sisdec\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj",
         "packagesPath": "C:\\Users\\juanrodriguezr\\.nuget\\packages\\",
-        "outputPath": "D:\\u\\sisdec_back\\Repositorio.Interfaces\\obj\\",
+        "outputPath": "D:\\sisdec\\Repositorio.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -284,11 +248,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj": {
-                "projectPath": "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj"
+              "D:\\sisdec\\Aplicacion\\Aplicacion.DTO.csproj": {
+                "projectPath": "D:\\sisdec\\Aplicacion\\Aplicacion.DTO.csproj"
               },
-              "D:\\u\\sisdec_back\\Repositorio\\Repositorio.Entities.csproj": {
-                "projectPath": "D:\\u\\sisdec_back\\Repositorio\\Repositorio.Entities.csproj"
+              "D:\\sisdec\\Repositorio\\Repositorio.Entities.csproj": {
+                "projectPath": "D:\\sisdec\\Repositorio\\Repositorio.Entities.csproj"
               }
             }
           }
@@ -299,7 +263,9 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "default"
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -316,37 +282,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\u\\sisdec_back\\Repositorio.Repositorio\\Repositorio.Repositorio.csproj": {
+    "D:\\sisdec\\Repositorio.Repositorio\\Repositorio.Repositorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\u\\sisdec_back\\Repositorio.Repositorio\\Repositorio.Repositorio.csproj",
+        "projectUniqueName": "D:\\sisdec\\Repositorio.Repositorio\\Repositorio.Repositorio.csproj",
         "projectName": "Repositorio.Repositorio",
-        "projectPath": "D:\\u\\sisdec_back\\Repositorio.Repositorio\\Repositorio.Repositorio.csproj",
+        "projectPath": "D:\\sisdec\\Repositorio.Repositorio\\Repositorio.Repositorio.csproj",
         "packagesPath": "C:\\Users\\juanrodriguezr\\.nuget\\packages\\",
-        "outputPath": "D:\\u\\sisdec_back\\Repositorio.Repositorio\\obj\\",
+        "outputPath": "D:\\sisdec\\Repositorio.Repositorio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -368,14 +320,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj": {
-                "projectPath": "D:\\u\\sisdec_back\\Aplicacion\\Aplicacion.DTO.csproj"
+              "D:\\sisdec\\Aplicacion\\Aplicacion.DTO.csproj": {
+                "projectPath": "D:\\sisdec\\Aplicacion\\Aplicacion.DTO.csproj"
               },
-              "D:\\u\\sisdec_back\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj": {
-                "projectPath": "D:\\u\\sisdec_back\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj"
+              "D:\\sisdec\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj": {
+                "projectPath": "D:\\sisdec\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj"
               },
-              "D:\\u\\sisdec_back\\Repositprio.Data\\Repositorio.Data.csproj": {
-                "projectPath": "D:\\u\\sisdec_back\\Repositprio.Data\\Repositorio.Data.csproj"
+              "D:\\sisdec\\Repositprio.Data\\Repositorio.Data.csproj": {
+                "projectPath": "D:\\sisdec\\Repositprio.Data\\Repositorio.Data.csproj"
               }
             }
           }
@@ -386,7 +338,9 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "default"
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -403,37 +357,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\u\\sisdec_back\\Repositorio\\Repositorio.Entities.csproj": {
+    "D:\\sisdec\\Repositorio\\Repositorio.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\u\\sisdec_back\\Repositorio\\Repositorio.Entities.csproj",
+        "projectUniqueName": "D:\\sisdec\\Repositorio\\Repositorio.Entities.csproj",
         "projectName": "Repositorio.Entities",
-        "projectPath": "D:\\u\\sisdec_back\\Repositorio\\Repositorio.Entities.csproj",
+        "projectPath": "D:\\sisdec\\Repositorio\\Repositorio.Entities.csproj",
         "packagesPath": "C:\\Users\\juanrodriguezr\\.nuget\\packages\\",
-        "outputPath": "D:\\u\\sisdec_back\\Repositorio\\obj\\",
+        "outputPath": "D:\\sisdec\\Repositorio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -463,7 +403,9 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "default"
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -480,37 +422,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\u\\sisdec_back\\Repositprio.Data\\Repositorio.Data.csproj": {
+    "D:\\sisdec\\Repositprio.Data\\Repositorio.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\u\\sisdec_back\\Repositprio.Data\\Repositorio.Data.csproj",
+        "projectUniqueName": "D:\\sisdec\\Repositprio.Data\\Repositorio.Data.csproj",
         "projectName": "Repositorio.Data",
-        "projectPath": "D:\\u\\sisdec_back\\Repositprio.Data\\Repositorio.Data.csproj",
+        "projectPath": "D:\\sisdec\\Repositprio.Data\\Repositorio.Data.csproj",
         "packagesPath": "C:\\Users\\juanrodriguezr\\.nuget\\packages\\",
-        "outputPath": "D:\\u\\sisdec_back\\Repositprio.Data\\obj\\",
+        "outputPath": "D:\\sisdec\\Repositprio.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -532,8 +460,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\u\\sisdec_back\\Repositorio\\Repositorio.Entities.csproj": {
-                "projectPath": "D:\\u\\sisdec_back\\Repositorio\\Repositorio.Entities.csproj"
+              "D:\\sisdec\\Repositorio\\Repositorio.Entities.csproj": {
+                "projectPath": "D:\\sisdec\\Repositorio\\Repositorio.Entities.csproj"
               }
             }
           }
@@ -544,7 +472,9 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "default"
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -571,26 +501,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
