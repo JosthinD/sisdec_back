@@ -62,3 +62,20 @@ CREATE TABLE SOPORTES (
     FOREIGN KEY (IdUsuario) REFERENCES Usuarios(Id),
     FOREIGN KEY (IdEstado) REFERENCES Estados(Id)
 );
+CREATE TABLE PlanAccionAcademico (
+    Id INT IDENTITY PRIMARY KEY,
+    Programa NVARCHAR(MAX),
+    Fecha NVARCHAR(MAX),
+    Director NVARCHAR(MAX),
+    FechaDos NVARCHAR(MAX),
+    Actividad NVARCHAR(MAX),
+    Descripcion NVARCHAR(MAX),
+    Duracion NVARCHAR(MAX),
+    Lugar NVARCHAR(MAX),
+    HoraInicio NVARCHAR(MAX),
+    HoraFin NVARCHAR(MAX),
+    Responsable NVARCHAR(MAX),
+    Participantes NVARCHAR(MAX),
+    Evidencias NVARCHAR(MAX),
+	IdUsuario INT FOREIGN KEY REFERENCES USUARIOS(Id)
+);

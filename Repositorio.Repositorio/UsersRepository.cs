@@ -95,7 +95,7 @@ namespace Repositorio.Repositorio
 
                 return true; // El usuario se creó correctamente
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Manejar cualquier excepción aquí, por ejemplo, registrarla o devolver un mensaje de error
                 return false; // Fallo al crear el usuario
