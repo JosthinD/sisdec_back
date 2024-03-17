@@ -51,8 +51,6 @@ namespace Repositorio.Repositorio
             usuario.SegundoNombre = usuarioActualizado.SegundoNombre;
             usuario.PrimerApellido = usuarioActualizado.PrimerApellido;
             usuario.SegundoApellido = usuarioActualizado.SegundoApellido;
-            usuario.IdTipoDocumento = usuarioActualizado.IdTipoDocumento;
-            usuario.IdGenero = usuarioActualizado.IdGenero;
             usuario.Telefono = usuarioActualizado.Telefono;
             usuario.Correo = usuarioActualizado.Correo;
 
