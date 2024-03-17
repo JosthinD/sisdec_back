@@ -1,0 +1,204 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\u\\sisdec_back\\Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5300497B-B714-4643-AAE0-C793E74D24BD}|..\\Repositorio.Repositorio\\Repositorio.Repositorio.csproj|d:\\u\\sisdec_back\\repositorio.repositorio\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFF80E2-361A-49EA-AC89-215AF5859E3D}|..\\Aplicacion.Main\\Aplicacion.Main.csproj|d:\\u\\sisdec_back\\aplicacion.main\\loginaplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F925000-9676-42D5-8D4C-59665C76F72D}|..\\Aplicacion\\Aplicacion.DTO.csproj|d:\\u\\sisdec_back\\aplicacion\\datalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5300497B-B714-4643-AAE0-C793E74D24BD}|..\\Repositorio.Repositorio\\Repositorio.Repositorio.csproj|d:\\u\\sisdec_back\\repositorio.repositorio\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFF80E2-361A-49EA-AC89-215AF5859E3D}|..\\Aplicacion.Main\\Aplicacion.Main.csproj|d:\\u\\sisdec_back\\aplicacion.main\\usersaplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F486CC4-B02A-4157-979C-9E5640FB7D4D}|Api.csproj|d:\\u\\sisdec_back\\api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F486CC4-B02A-4157-979C-9E5640FB7D4D}|Api.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F486CC4-B02A-4157-979C-9E5640FB7D4D}|Api.csproj|d:\\u\\sisdec_back\\api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F486CC4-B02A-4157-979C-9E5640FB7D4D}|Api.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B94B76C-8408-42DC-B544-AE7E09B767B3}|..\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj|d:\\u\\sisdec_back\\repositorio.interfaces\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B94B76C-8408-42DC-B544-AE7E09B767B3}|..\\Repositorio.Interfaces\\Repositorio.Interfaces.csproj|d:\\u\\sisdec_back\\repositorio.interfaces\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F486CC4-B02A-4157-979C-9E5640FB7D4D}|Api.csproj|d:\\u\\sisdec_back\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F486CC4-B02A-4157-979C-9E5640FB7D4D}|Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F925000-9676-42D5-8D4C-59665C76F72D}|..\\Aplicacion\\Aplicacion.DTO.csproj|d:\\u\\sisdec_back\\aplicacion\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348B3FFD-6998-48CD-ACA8-F97B7763BC99}|..\\Aplicacion.Interfaces\\Aplicacion.Interfaces.csproj|d:\\u\\sisdec_back\\aplicacion.interfaces\\iusersaplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginAplication.cs",
+              "DocumentMoniker": "D:\\u\\sisdec_back\\Aplicacion.Main\\LoginAplication.cs",
+              "RelativeDocumentMoniker": "..\\Aplicacion.Main\\LoginAplication.cs",
+              "ToolTip": "D:\\u\\sisdec_back\\Aplicacion.Main\\LoginAplication.cs",
+              "RelativeToolTip": "..\\Aplicacion.Main\\LoginAplication.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAwwCgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T20:09:11.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersAplication.cs",
+              "DocumentMoniker": "D:\\u\\sisdec_back\\Aplicacion.Main\\UsersAplication.cs",
+              "RelativeDocumentMoniker": "..\\Aplicacion.Main\\UsersAplication.cs",
+              "ToolTip": "D:\\u\\sisdec_back\\Aplicacion.Main\\UsersAplication.cs",
+              "RelativeToolTip": "..\\Aplicacion.Main\\UsersAplication.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAIA0wCUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T20:09:11.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginRepository.cs",
+              "DocumentMoniker": "D:\\u\\sisdec_back\\Repositorio.Repositorio\\LoginRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositorio.Repositorio\\LoginRepository.cs",
+              "ToolTip": "D:\\u\\sisdec_back\\Repositorio.Repositorio\\LoginRepository.cs",
+              "RelativeToolTip": "..\\Repositorio.Repositorio\\LoginRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T20:09:11.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\u\\sisdec_back\\Api\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "D:\\u\\sisdec_back\\Api\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T20:09:11.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ILoginRepository.cs",
+              "DocumentMoniker": "D:\\u\\sisdec_back\\Repositorio.Interfaces\\ILoginRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositorio.Interfaces\\ILoginRepository.cs",
+              "ToolTip": "D:\\u\\sisdec_back\\Repositorio.Interfaces\\ILoginRepository.cs",
+              "RelativeToolTip": "..\\Repositorio.Interfaces\\ILoginRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T20:09:11.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "D:\\u\\sisdec_back\\Repositorio.Repositorio\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositorio.Repositorio\\UsersRepository.cs",
+              "ToolTip": "D:\\u\\sisdec_back\\Repositorio.Repositorio\\UsersRepository.cs",
+              "RelativeToolTip": "..\\Repositorio.Repositorio\\UsersRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T20:09:11.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "D:\\u\\sisdec_back\\Repositorio.Interfaces\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositorio.Interfaces\\IUsersRepository.cs",
+              "ToolTip": "D:\\u\\sisdec_back\\Repositorio.Interfaces\\IUsersRepository.cs",
+              "RelativeToolTip": "..\\Repositorio.Interfaces\\IUsersRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T20:09:11.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\u\\sisdec_back\\Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\u\\sisdec_back\\Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-17T20:09:11.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataLogin.cs",
+              "DocumentMoniker": "D:\\u\\sisdec_back\\Aplicacion\\DataLogin.cs",
+              "RelativeDocumentMoniker": "..\\Aplicacion\\DataLogin.cs",
+              "ToolTip": "D:\\u\\sisdec_back\\Aplicacion\\DataLogin.cs",
+              "RelativeToolTip": "..\\Aplicacion\\DataLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T20:09:11.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ResponseDto.cs",
+              "DocumentMoniker": "D:\\u\\sisdec_back\\Aplicacion\\ResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\Aplicacion\\ResponseDto.cs",
+              "ToolTip": "D:\\u\\sisdec_back\\Aplicacion\\ResponseDto.cs",
+              "RelativeToolTip": "..\\Aplicacion\\ResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T20:09:11.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\u\\sisdec_back\\Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "D:\\u\\sisdec_back\\Api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T20:09:11.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUsersAplication.cs",
+              "DocumentMoniker": "D:\\u\\sisdec_back\\Aplicacion.Interfaces\\IUsersAplication.cs",
+              "RelativeDocumentMoniker": "..\\Aplicacion.Interfaces\\IUsersAplication.cs",
+              "ToolTip": "D:\\u\\sisdec_back\\Aplicacion.Interfaces\\IUsersAplication.cs",
+              "RelativeToolTip": "..\\Aplicacion.Interfaces\\IUsersAplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T20:09:11.432Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
