@@ -8,7 +8,7 @@
 *.userosscache
 *.sln.docstates
 *.vsidx
-*.dtbcache.v2
+#*.dtbcache.v2
 
 # Carpetas de Visual Studio
 [Dd]ebug/
