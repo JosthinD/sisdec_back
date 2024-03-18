@@ -96,5 +96,90 @@ namespace Repositorio.Repositorio
                 return false; // Falló al actualizar el plan
             }
         }
+
+        //=================================================================================================================
+        public async Task<List<PracticaPorAsignatura>> GetAllPracticaPorAsignatura()
+        {
+            return await Context.PracticaPorAsignatura.ToListAsync();
+        }
+        public async Task<List<PracticaPorAsignatura>> GetAllPracticaPorAsignaturaPorUsuario(int IdUsuario)
+        {
+            return await Context.PracticaPorAsignatura
+                .Where(plan => plan.IdUsuario == IdUsuario)
+                .ToListAsync();
+        }
+        public async Task<bool> AgregarNuevaPracticaPorAsignatura(PracticaPorAsignaturaDto nuevaPractica)
+        {
+            try
+            {
+                var practica = new PracticaPorAsignatura
+                {
+                    Programa = nuevaPractica.Programa,
+                    Director = nuevaPractica.Director,
+                    Semestre = nuevaPractica.Semestre,
+                    NombrePractica = nuevaPractica.NombrePractica,
+                    NumeroPractica = nuevaPractica.NumeroPractica,
+                    Lugar = nuevaPractica.Lugar,
+                    Horas = nuevaPractica.Horas,
+                    Observaciones = nuevaPractica.Observaciones,
+                    Introduccion = nuevaPractica.Introduccion,
+                    ObjetivoGeneral = nuevaPractica.ObjetivoGeneral,
+                    ObjetivosEspecificos = nuevaPractica.ObjetivosEspecificos,
+                    EvidenciasActividades = nuevaPractica.EvidenciasActividades,
+                    ObjetosUsados = nuevaPractica.ObjetosUsados,
+                    ResultadoAprendizaje = nuevaPractica.ResultadoAprendizaje,
+                    EvaluacionPractica = nuevaPractica.EvaluacionPractica,
+                    IdUsuario = nuevaPractica.IdUsuario
+                };
+
+                Context.PracticaPorAsignatura.Add(practica);
+                await Context.SaveChangesAsync();
+                return true; // Se agregó correctamente la nueva práctica
+            }
+            catch (Exception)
+            {
+                // Manejar cualquier excepción aquí, por ejemplo, registrarla o devolver un mensaje de error
+                return false; // Falló al agregar la nueva práctica
+            }
+        }
+        public async Task<bool> ActualizarPracticaPorAsignatura(PracticaPorAsignatura practicaActualizada)
+        {
+            try
+            {
+                var practicaExistente = await Context.PracticaPorAsignatura.FindAsync(practicaActualizada.Id);
+
+                if (practicaExistente == null)
+                {
+                    throw new Exception($"No se encontró la práctica con ID {practicaActualizada.Id}.");
+                }
+
+                // Actualizar las propiedades necesarias
+                practicaExistente.Programa = practicaActualizada.Programa;
+                practicaExistente.Director = practicaActualizada.Director;
+                practicaExistente.Semestre = practicaActualizada.Semestre;
+                practicaExistente.NombrePractica = practicaActualizada.NombrePractica;
+                practicaExistente.NumeroPractica = practicaActualizada.NumeroPractica;
+                practicaExistente.Lugar = practicaActualizada.Lugar;
+                practicaExistente.Horas = practicaActualizada.Horas;
+                practicaExistente.Observaciones = practicaActualizada.Observaciones;
+                practicaExistente.Introduccion = practicaActualizada.Introduccion;
+                practicaExistente.ObjetivoGeneral = practicaActualizada.ObjetivoGeneral;
+                practicaExistente.ObjetivosEspecificos = practicaActualizada.ObjetivosEspecificos;
+                practicaExistente.EvidenciasActividades = practicaActualizada.EvidenciasActividades;
+                practicaExistente.ObjetosUsados = practicaActualizada.ObjetosUsados;
+                practicaExistente.ResultadoAprendizaje = practicaActualizada.ResultadoAprendizaje;
+                practicaExistente.EvaluacionPractica = practicaActualizada.EvaluacionPractica;
+                practicaExistente.IdUsuario = practicaActualizada.IdUsuario;
+
+                await Context.SaveChangesAsync();
+                return true; // Se actualizó correctamente la práctica
+            }
+            catch (Exception)
+            {
+                // Manejar cualquier excepción aquí, por ejemplo, registrarla o devolver un mensaje de error
+                return false; // Falló al actualizar la práctica
+            }
+        }
+
     }
 }

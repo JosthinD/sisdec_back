@@ -19,5 +19,6 @@ namespace Repositorio.Data
         public DbSet<TiposDocumento>? TiposDocumento { get; set; }
         public DbSet<Soportes>? Soportes { get; set; }
         public DbSet<PlanAccionAcademico>? PlanAccionAcademico { get; set; }
+        public DbSet<PracticaPorAsignatura>? PracticaPorAsignatura { get; set; }
     }
 }

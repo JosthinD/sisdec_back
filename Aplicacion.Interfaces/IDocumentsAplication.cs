@@ -14,5 +14,9 @@ namespace Aplicacion.Interfaces
         Task<ResponseDto<List<PlanAccionAcademico?>>> GetAllPlanAccionAcademicoPorUsuario(int IdUsuario);
         Task<ResponseDto<bool>> AgregarNuevoPlanAccion(PlanAccionAcademicoDto nuevoPlan);
         Task<ResponseDto<bool>> ActualizarPlanAccion(PlanAccionAcademico planActualizado);
+        Task<ResponseDto<List<PracticaPorAsignatura?>>> GetAllPracticaPorAsignatura();
+        Task<ResponseDto<List<PracticaPorAsignatura?>>> GetAllPracticaPorAsignaturaPorUsuario(int IdUsuario);
+        Task<ResponseDto<bool>> AgregarNuevaPracticaPorAsignatura(PracticaPorAsignaturaDto nuevaPractica);
+        Task<ResponseDto<bool>> ActualizarPracticaPorAsignatura(PracticaPorAsignatura practicaActualizada);
     }
 }
