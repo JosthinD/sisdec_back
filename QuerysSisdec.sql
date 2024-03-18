@@ -79,3 +79,22 @@ CREATE TABLE PlanAccionAcademico (
     Evidencias NVARCHAR(MAX),
 	IdUsuario INT FOREIGN KEY REFERENCES USUARIOS(Id)
 );
+CREATE TABLE PracticaPorAsignatura (
+    Id INT PRIMARY KEY,
+    Programa VARCHAR(MAX),
+    Director VARCHAR(MAX),
+    Semestre VARCHAR(MAX),
+    NombrePractica VARCHAR(MAX),
+    NumeroPractica VARCHAR(MAX),
+    Lugar VARCHAR(MAX),
+    Horas VARCHAR(MAX),
+    Observaciones VARCHAR(MAX),
+    Introduccion VARCHAR(MAX),
+    ObjetivoGeneral VARCHAR(MAX),
+    ObjetivosEspecificos VARCHAR(MAX),
+    EvidenciasActividades VARCHAR(MAX),
+    ObjetosUsados VARCHAR(MAX),
+    ResultadoAprendizaje VARCHAR(MAX),
+    EvaluacionPractica VARCHAR(MAX),
+    IdUsuario INT
+);

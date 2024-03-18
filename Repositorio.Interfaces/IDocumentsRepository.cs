@@ -13,5 +13,9 @@ namespace Repositorio.Interfaces
         Task<List<PlanAccionAcademico>> GetAllPlanAccionAcademicoPorUsuario(int usuarioId);
         Task<bool> AgregarNuevoPlanAccion(PlanAccionAcademicoDto nuevoPlan);
         Task<bool> ActualizarPlanAccion(PlanAccionAcademico planActualizado);
+        Task<List<PracticaPorAsignatura>> GetAllPracticaPorAsignatura();
+        Task<List<PracticaPorAsignatura>> GetAllPracticaPorAsignaturaPorUsuario(int IdUsuario);
+        Task<bool> AgregarNuevaPracticaPorAsignatura(PracticaPorAsignaturaDto nuevaPractica);
+        Task<bool> ActualizarPracticaPorAsignatura(PracticaPorAsignatura practicaActualizada);
     }
 }
