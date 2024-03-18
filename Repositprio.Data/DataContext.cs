@@ -20,5 +20,6 @@ namespace Repositorio.Data
         public DbSet<Soportes>? Soportes { get; set; }
         public DbSet<PlanAccionAcademico>? PlanAccionAcademico { get; set; }
         public DbSet<PracticaPorAsignatura>? PracticaPorAsignatura { get; set; }
+        public DbSet<AtencionEstudiantes>? AtencionEstudiantes { get; set; }
     }
 }

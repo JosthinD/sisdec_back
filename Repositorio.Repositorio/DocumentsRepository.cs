@@ -180,6 +180,80 @@ namespace Repositorio.Repositorio
                 return false; // Falló al actualizar la práctica
             }
         }
+        //=================================================================================================================
+        public async Task<List<AtencionEstudiantes>> GetAllAtencionEstudiantes()
+        {
+            return await Context.AtencionEstudiantes.ToListAsync();
+        }
+        public async Task<List<AtencionEstudiantes>> GetAllAtencionEstudiantesPorUsuario(int IdUsuario)
+        {
+            return await Context.AtencionEstudiantes
+                .Where(plan => plan.IdUsuario == IdUsuario)
+                .ToListAsync();
+        }
+        public async Task<bool> AgregarNuevaAtencionEstudiantes(AtencionEstudiantesDto nuevaAtencion)
+        {
+            try
+            {
+                var atencion = new AtencionEstudiantes
+                {
+                    Programa = nuevaAtencion.Programa,
+                    Director = nuevaAtencion.Director,
+                    Modulo = nuevaAtencion.Modulo,
+                    Fecha = nuevaAtencion.Fecha,
+                    Hora = nuevaAtencion.Hora,
+                    Semestre = nuevaAtencion.Semestre,
+                    Grupo = nuevaAtencion.Grupo,
+                    Jornada = nuevaAtencion.Jornada,
+                    Motivo = nuevaAtencion.Motivo,
+                    Observaciones = nuevaAtencion.Observaciones,
+                    AprobacionEstudiante = nuevaAtencion.AprobacionEstudiante,
+                    IdUsuario = nuevaAtencion.IdUsuario
+                };
 
+                Context.AtencionEstudiantes.Add(atencion);
+                await Context.SaveChangesAsync();
+                return true; // Se agregó correctamente la nueva atención
+            }
+            catch (Exception)
+            {
+                // Manejar cualquier excepción aquí, por ejemplo, registrarla o devolver un mensaje de error
+                return false; // Falló al agregar la nueva atención
+            }
+        }
+        public async Task<bool> ActualizarAtencionEstudiantes(AtencionEstudiantes atencionActualizada)
+        {
+            try
+            {
+                var atencionExistente = await Context.AtencionEstudiantes.FindAsync(atencionActualizada.Id);
+
+                if (atencionExistente == null)
+                {
+                    throw new Exception($"No se encontró la atención con ID {atencionActualizada.Id}.");
+                }
+
+                // Actualizar las propiedades necesarias
+                atencionExistente.Programa = atencionActualizada.Programa;
+                atencionExistente.Director = atencionActualizada.Director;
+                atencionExistente.Modulo = atencionActualizada.Modulo;
+                atencionExistente.Fecha = atencionActualizada.Fecha;
+                atencionExistente.Hora = atencionActualizada.Hora;
+                atencionExistente.Semestre = atencionActualizada.Semestre;
+                atencionExistente.Grupo = atencionActualizada.Grupo;
+                atencionExistente.Jornada = atencionActualizada.Jornada;
+                atencionExistente.Motivo = atencionActualizada.Motivo;
+                atencionExistente.Observaciones = atencionActualizada.Observaciones;
+                atencionExistente.AprobacionEstudiante = atencionActualizada.AprobacionEstudiante;
+                atencionExistente.IdUsuario = atencionActualizada.IdUsuario;
+
+                await Context.SaveChangesAsync();
+                return true; // Se actualizó correctamente la atención
+            }
+            catch (Exception)
+            {
+                // Manejar cualquier excepción aquí, por ejemplo, registrarla o devolver un mensaje de error
+                return false; // Falló al actualizar la atención
+            }
+        }
     }
 }

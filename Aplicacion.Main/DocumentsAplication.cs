@@ -244,5 +244,118 @@ namespace Aplicacion.Main
                 return data;
             }
         }
+        //===========================================================================================================================
+        public async Task<ResponseDto<List<AtencionEstudiantes?>>> GetAllAtencionEstudiantes()
+        {
+            var data = new ResponseDto<List<AtencionEstudiantes>?> { Data = new List<AtencionEstudiantes>() };
+            try
+            {
+                var result = await _documentsRepository.GetAllAtencionEstudiantes();
+                if (!result.Any())
+                {
+                    data.IsSuccess = false;
+                    data.Response = "400";
+                    data.Message = "Problemas en la consulta de todas las Atencion de Estudiantes a la base de datos.";
+                    return data;
+                }
+
+                data.IsSuccess = true;
+                data.Response = "200";
+                data.Message = "todas las Atencion de Estudiantes";
+                data.Data = result;
+                return data;
+            }
+            catch (Exception ex)
+            {
+                data.IsSuccess = false;
+                data.Message = "Error: En consulta de todas las Atencion de Estudiantes" + ex.Message;
+                data.Response = "500";
+                return data;
+            }
+        }
+        public async Task<ResponseDto<List<AtencionEstudiantes?>>> GetAllAtencionEstudiantesPorUsuario(int IdUsuario)
+        {
+            var data = new ResponseDto<List<AtencionEstudiantes>?> { Data = new List<AtencionEstudiantes>() };
+            try
+            {
+                var result = await _documentsRepository.GetAllAtencionEstudiantesPorUsuario(IdUsuario);
+                if (!result.Any())
+                {
+                    data.IsSuccess = false;
+                    data.Response = "400";
+                    data.Message = "Problemas en la consulta de todas las Atencion de Estudiantes por usuario a la base de datos.";
+                    return data;
+                }
+
+                data.IsSuccess = true;
+                data.Response = "200";
+                data.Message = "todas las Atencion de Estudiantes por usuario";
+                data.Data = result;
+                return data;
+            }
+            catch (Exception ex)
+            {
+                data.IsSuccess = false;
+                data.Message = "Error: En consulta de todas las Atencion de Estudiantes por usuario" + ex.Message;
+                data.Response = "500";
+                return data;
+            }
+        }
+        public async Task<ResponseDto<bool>> AgregarNuevaAtencionEstudiantes(AtencionEstudiantesDto nuevaAtencion)
+        {
+            var data = new ResponseDto<bool> { Data = false };
+            try
+            {
+                var result = await _documentsRepository.AgregarNuevaAtencionEstudiantes(nuevaAtencion);
+                if (!result)
+                {
+                    data.IsSuccess = false;
+                    data.Response = "400";
+                    data.Message = "Problemas al agregar la Atencion de Estudiantes a la base de datos.";
+                    return data;
+                }
+
+                data.IsSuccess = true;
+                data.Response = "200";
+                data.Message = "la Atencion de Estudiante agregado";
+                data.Data = result;
+                return data;
+            }
+            catch (Exception ex)
+            {
+                data.IsSuccess = false;
+                data.Message = "Error: En agregar la Atencion de Estudiantes" + ex.Message;
+                data.Response = "500";
+                return data;
+            }
+        }
+        public async Task<ResponseDto<bool>> ActualizarAtencionEstudiantes(AtencionEstudiantes atencionActualizada)
+        {
+            var data = new ResponseDto<bool> { Data = false };
+            try
+            {
+                var result = await _documentsRepository.ActualizarAtencionEstudiantes(atencionActualizada);
+                if (!result)
+                {
+                    data.IsSuccess = false;
+                    data.Response = "400";
+                    data.Message = "Problemas al actualizar la Atencion de Estudiantes a la base de datos.";
+                    return data;
+                }
+
+                data.IsSuccess = true;
+                data.Response = "200";
+                data.Message = "la Atencion de Estudiantes actualizado";
+                data.Data = result;
+                return data;
+            }
+            catch (Exception ex)
+            {
+                data.IsSuccess = false;
+                data.Message = "Error: En actualizar la Atencion de Estudiantes" + ex.Message;
+                data.Response = "500";
+                return data;
+            }
+        }
     }
 }
