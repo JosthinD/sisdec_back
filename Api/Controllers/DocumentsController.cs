@@ -92,5 +92,45 @@ namespace Api.Controllers
 
             return BadRequest(result);
         }
+        //=========================================================================================================================
+        [HttpGet("GetAllAtencionEstudiantes")]
+        public async Task<IActionResult> GetAllAtencionEstudiantes()
+        {
+            var result = await _documentsAplication.GetAllAtencionEstudiantes();
+            if (result.IsSuccess)
+                return Ok(result);
+
+            return BadRequest(result);
+        }
+        [HttpGet("GetAllAtencionEstudiantesPorUsuario")]
+        public async Task<IActionResult> GetAllAtencionEstudiantesPorUsuario(int IdUsuario)
+        {
+            var result = await _documentsAplication.GetAllAtencionEstudiantesPorUsuario(IdUsuario);
+            if (result.IsSuccess)
+                return Ok(result);
+
+            return BadRequest(result);
+        }
+        [HttpPost("AgregarNuevaAtencionEstudiantes")]
+        public async Task<IActionResult> AgregarNuevaAtencionEstudiantes([FromBody] AtencionEstudiantesDto nuevaAtencion)
+        {
+            if (nuevaAtencion == null) return BadRequest("Se debe ingresar el nuevo atencion a agregar.");
+            var result = await _documentsAplication.AgregarNuevaAtencionEstudiantes(nuevaAtencion);
+            if (result.IsSuccess)
+                return Ok(result);
+
+            return BadRequest(result);
+        }
+        [HttpPut("ActualizarAtencionEstudiantes")]
+        public async Task<IActionResult> ActualizarAtencionEstudiantes([FromBody] AtencionEstudiantes nuevaAtencion)
+        {
+            if (nuevaAtencion == null) return BadRequest("Se debe ingresar el plan a actualizar.");
+            var result = await _documentsAplication.ActualizarAtencionEstudiantes(nuevaAtencion);
+            if (result.IsSuccess)
+                return Ok(result);
+
+            return BadRequest(result);
+        }
+        //=========================================================================================================================
     }
 }
