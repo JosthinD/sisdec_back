@@ -28,7 +28,7 @@ CREATE TABLE TIPOSDOCUMENTO (
 CREATE TABLE Logs (
     Id INT PRIMARY KEY IDENTITY,
     IdAccion INT NOT NULL,
-    Descripcion NVARCHAR(50) NOT NULL,
+    Descripcion NVARCHAR(MAX) NOT NULL,
     DateLog DATETIME NOT NULL,
     FOREIGN KEY (IdAccion) REFERENCES ACCIONES(Id)
 );
@@ -61,4 +61,55 @@ CREATE TABLE SOPORTES (
     IdEstado INT NOT NULL,
     FOREIGN KEY (IdUsuario) REFERENCES Usuarios(Id),
     FOREIGN KEY (IdEstado) REFERENCES Estados(Id)
+);
+CREATE TABLE PlanAccionAcademico (
+    Id INT IDENTITY PRIMARY KEY,
+    Programa NVARCHAR(MAX),
+    Fecha NVARCHAR(MAX),
+    Director NVARCHAR(MAX),
+    FechaDos NVARCHAR(MAX),
+    Actividad NVARCHAR(MAX),
+    Descripcion NVARCHAR(MAX),
+    Duracion NVARCHAR(MAX),
+    Lugar NVARCHAR(MAX),
+    HoraInicio NVARCHAR(MAX),
+    HoraFin NVARCHAR(MAX),
+    Responsable NVARCHAR(MAX),
+    Participantes NVARCHAR(MAX),
+    Evidencias NVARCHAR(MAX),
+	IdUsuario INT FOREIGN KEY REFERENCES USUARIOS(Id)
+);
+CREATE TABLE PracticaPorAsignatura (
+    Id INT IDENTITY PRIMARY KEY,
+    Programa VARCHAR(MAX),
+    Director VARCHAR(MAX),
+    Semestre VARCHAR(MAX),
+    NombrePractica VARCHAR(MAX),
+    NumeroPractica VARCHAR(MAX),
+    Lugar VARCHAR(MAX),
+    Horas VARCHAR(MAX),
+    Observaciones VARCHAR(MAX),
+    Introduccion VARCHAR(MAX),
+    ObjetivoGeneral VARCHAR(MAX),
+    ObjetivosEspecificos VARCHAR(MAX),
+    EvidenciasActividades VARCHAR(MAX),
+    ObjetosUsados VARCHAR(MAX),
+    ResultadoAprendizaje VARCHAR(MAX),
+    EvaluacionPractica VARCHAR(MAX),
+    IdUsuario INT FOREIGN KEY REFERENCES USUARIOS(Id)
+);
+CREATE TABLE AtencionEstudiantes (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Programa NVARCHAR(MAX),
+    Director NVARCHAR(MAX),
+    Modulo NVARCHAR(MAX),
+    Fecha NVARCHAR(MAX),
+    Hora NVARCHAR(MAX),
+    Semestre NVARCHAR(MAX),
+    Grupo NVARCHAR(MAX),
+    Jornada NVARCHAR(MAX),
+    Motivo NVARCHAR(MAX),
+    Observaciones NVARCHAR(MAX),
+    AprobacionEstudiante NVARCHAR(MAX),
+    IdUsuario INT FOREIGN KEY REFERENCES USUARIOS(Id)
 );

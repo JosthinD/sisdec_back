@@ -1,16 +1,22 @@
 ﻿using Aplicacion.DTO;
 using Aplicacion.Interfaces;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.Extensions.Configuration;
 using Repositorio.Entities;
 using Repositorio.Interfaces;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace Aplicacion.Main
 {
     public class DataAplication : IDataAplication
     {
         private readonly IDataRepository _dataRepository;
-        public DataAplication(IDataRepository _DataRepository)
+        private readonly IConfiguration _configuration;
+        public DataAplication(IDataRepository _DataRepository, IConfiguration configuration)
         {
             _dataRepository = _DataRepository;
+            _configuration = configuration;
         }
               
         public async Task<ResponseDto<List<Roles?>>> GetAllRoles()
@@ -181,6 +187,36 @@ namespace Aplicacion.Main
                 data.Response = "500";
                 return data;
             }
+        }
+
+        public async Task<string> EncriptAsync(string data)
+        {
+            using var aesAlg = Aes.Create();
+            aesAlg.Key = Encoding.UTF8.GetBytes(_configuration["Encrypt:Key"]);
+            aesAlg.IV = Encoding.UTF8.GetBytes(_configuration["Encrypt:IV"]);
+
+            var encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV);
+
+            using var msEncrypt = new MemoryStream();
+            using var csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write);
+            using var swEncrypt = new StreamWriter(csEncrypt);
+            await swEncrypt.WriteAsync(data);
+            swEncrypt.Flush(); // Asegurarse de que los datos se escriben completamente
+            csEncrypt.FlushFinalBlock(); // Asegurarse de que los datos se cifran completamente
+            return Convert.ToBase64String(msEncrypt.ToArray());
+        }
+        public async Task<string> DecriptAsync(string data)
+        {
+            using var aesAlg = Aes.Create();
+            aesAlg.Key = Encoding.UTF8.GetBytes(_configuration["Encrypt:Key"]);
+            aesAlg.IV = Encoding.UTF8.GetBytes(_configuration["Encrypt:IV"]);
+
+            var decryptor = aesAlg.CreateDecryptor(aesAlg.Key, aesAlg.IV);
+
+            using var msDecrypt = new MemoryStream(Convert.FromBase64String(data));
+            using var csDecrypt = new CryptoStream(msDecrypt, decryptor, CryptoStreamMode.Read);
+            using var srDecrypt = new StreamReader(csDecrypt);
+            return await srDecrypt.ReadToEndAsync();
         }
     }
 }

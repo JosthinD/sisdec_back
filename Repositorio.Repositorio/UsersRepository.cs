@@ -95,16 +95,18 @@ namespace Repositorio.Repositorio
 
                 return true; // El usuario se creó correctamente
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Manejar cualquier excepción aquí, por ejemplo, registrarla o devolver un mensaje de error
                 return false; // Fallo al crear el usuario
             }
         }
 
+
         public async Task<bool> VerifyPasswordForUser(int userId, string contraseña)
         {
             // Buscar el usuario por su Id
+
             var usuario = await Context.Usuarios.FindAsync(userId);
 
             // Verificar si se encontró el usuario y si la contraseña coincide

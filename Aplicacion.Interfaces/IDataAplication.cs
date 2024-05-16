@@ -11,5 +11,7 @@ namespace Aplicacion.Interfaces
         Task<ResponseDto<List<Estados?>>> GetAllStates();
         Task<ResponseDto<List<Logs?>>> GetAllLogs();
         Task<ResponseDto<List<Logs?>>> GetLogsByActionIdAndDate(int? idAccion, DateTime? fecha);
+        Task<string> EncriptAsync(string data);
+        Task<string> DecriptAsync(string data);
     }
 }

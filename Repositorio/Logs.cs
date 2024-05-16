@@ -17,7 +17,6 @@ namespace Repositorio.Entities
         [Required]
         public int? IdAccion { get; set; }
         [Required]
-        [StringLength(50)]
         public string? Descripcion { get; set; }
         [Required]
         public DateTime DateLog { get; set; }

@@ -9,12 +9,10 @@ namespace Api.Controllers
     public class LoginController : ControllerBase
     {
         
-        private readonly ILogger<LoginController> _logger;
         private readonly ILoginAplication _loginAplication;
 
-        public LoginController(ILogger<LoginController> logger, ILoginAplication loginAplication)
+        public LoginController(ILoginAplication loginAplication)
         {
-            _logger = logger;
             _loginAplication = loginAplication;
         }
 
