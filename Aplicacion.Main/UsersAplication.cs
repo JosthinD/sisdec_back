@@ -25,6 +25,7 @@ namespace Aplicacion.Main
             var data = new ResponseDto<UsuariosDto?> { Data = new UsuariosDto() };
             try
             {
+                email = await _dataAplication.EncriptAsync(email);
                 bool existe = await _loginRepository.GetExistUser(email);
                 if (!existe)
                 {
@@ -106,25 +107,24 @@ namespace Aplicacion.Main
                 var usuarios = await _usersRepository.GetAllUsers();
                 
                 if (!usuarios.Any())
-                {
-                    foreach (var usuario in usuarios)
-                    {
-                        usuario.PrimerApellido = await _dataAplication.DecriptAsync(usuario.PrimerApellido);
-                        usuario.PrimerNombre = await _dataAplication.DecriptAsync(usuario.PrimerNombre);
-                        usuario.SegundoNombre = await _dataAplication.DecriptAsync(usuario.SegundoNombre);
-                        usuario.PrimerApellido = await _dataAplication.DecriptAsync(usuario.PrimerApellido);
-                        usuario.SegundoApellido = await _dataAplication.DecriptAsync(usuario.SegundoApellido);
-                        usuario.NumeroDocumento = await _dataAplication.DecriptAsync(usuario.NumeroDocumento);
-                        usuario.Telefono = await _dataAplication.DecriptAsync(usuario.Telefono);
-                        usuario.Correo = await _dataAplication.DecriptAsync(usuario.Correo);
-                        usuario.Contraseña = await _dataAplication.DecriptAsync(usuario.Contraseña);
-                    }
+                {                   
 
                     data.IsSuccess = false;
                     data.Response = "400";
                     data.Message = "Problema no se puede consultar los datos de los usuarios.";
                     return data;
-                }                
+                }
+                foreach (var usuario in usuarios)
+                {
+                    usuario.PrimerNombre = await _dataAplication.DecriptAsync(usuario.PrimerNombre);
+                    usuario.SegundoNombre = await _dataAplication.DecriptAsync(usuario.SegundoNombre);
+                    usuario.PrimerApellido = await _dataAplication.DecriptAsync(usuario.PrimerApellido);
+                    usuario.SegundoApellido = await _dataAplication.DecriptAsync(usuario.SegundoApellido);
+                    usuario.NumeroDocumento = await _dataAplication.DecriptAsync(usuario.NumeroDocumento);
+                    usuario.Telefono = await _dataAplication.DecriptAsync(usuario.Telefono);
+                    usuario.Correo = await _dataAplication.DecriptAsync(usuario.Correo);
+                    usuario.Contraseña = await _dataAplication.DecriptAsync(usuario.Contraseña);
+                }
                 data.IsSuccess = true;
                 data.Response = "200";
                 data.Message = "Todos los usuarios.";
@@ -144,7 +144,6 @@ namespace Aplicacion.Main
             var data = new ResponseDto<bool> { Data = false };
             try
             {
-                usuarioNuevo.PrimerApellido = await _dataAplication.EncriptAsync(usuarioNuevo.PrimerApellido);
                 usuarioNuevo.PrimerNombre = await _dataAplication.EncriptAsync(usuarioNuevo.PrimerNombre);
                 usuarioNuevo.SegundoNombre = await _dataAplication.EncriptAsync(usuarioNuevo.SegundoNombre);
                 usuarioNuevo.PrimerApellido = await _dataAplication.EncriptAsync(usuarioNuevo.PrimerApellido);
