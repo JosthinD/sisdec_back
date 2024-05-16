@@ -9,9 +9,11 @@ namespace Aplicacion.Main
     public class LoginAplication : ILoginAplication
     {
         private readonly ILoginRepository _loginRepository;
-        public LoginAplication(ILoginRepository _LoginRepository)
+        private readonly IDataAplication _dataAplication;
+        public LoginAplication(ILoginRepository _LoginRepository, IDataAplication dataAplication)
         {
             _loginRepository = _LoginRepository;
+            _dataAplication = dataAplication;
         }
 
         public async Task<ResponseDto<DataLogin>> GetLogin(string email, string password)
@@ -19,7 +21,10 @@ namespace Aplicacion.Main
             var data = new ResponseDto<DataLogin> { Data = new DataLogin() };
             try
             {
-                bool existe = await _loginRepository.GetExistUser(email);
+                string? emailEncript = await _dataAplication.EncriptAsync(email);
+                string? passwordEncript = await _dataAplication.EncriptAsync(password);
+
+                bool existe = await _loginRepository.GetExistUser(emailEncript);
                 if (!existe)
                 {
                     data.IsSuccess = existe;
@@ -27,7 +32,7 @@ namespace Aplicacion.Main
                     data.Message = "No existe el usuario.";
                     return data;
                 }
-                var status = await _loginRepository.GetCoincidenciaPassword(email, password);
+                var status = await _loginRepository.GetCoincidenciaPassword(emailEncript, passwordEncript);
                 if (!status)
                 {
                     data.IsSuccess = status;
@@ -38,7 +43,7 @@ namespace Aplicacion.Main
                 data.IsSuccess = true;
                 data.Response = "200";
                 data.Message = "Datos Correctos.";
-                data.Data.Rol = await _loginRepository.GetRol(email);
+                data.Data.Rol = await _loginRepository.GetRol(emailEncript);
                 return data;
             }
             catch (Exception ex)

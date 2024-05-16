@@ -11,11 +11,13 @@ namespace Aplicacion.Main
         private readonly IUsersRepository _usersRepository;
         private readonly ILoginRepository _loginRepository;
         private readonly IDataRepository _dataRepository;
-        public UserAplication(IUsersRepository _UserRepository, ILoginRepository _LoginRepository, IDataRepository _DataRepository)
+        private readonly IDataAplication _dataAplication;
+        public UserAplication(IUsersRepository _UserRepository, ILoginRepository _LoginRepository, IDataRepository _DataRepository, IDataAplication dataAplication)
         {
             _usersRepository = _UserRepository;
             _loginRepository = _LoginRepository;
             _dataRepository = _DataRepository;
+            _dataAplication = dataAplication;
         }
         
         public async Task<ResponseDto<UsuariosDto?>> GetAllDataUser(string email)
@@ -31,11 +33,22 @@ namespace Aplicacion.Main
                     data.Message = "No existe el usuario.";
                     return data;
                 }
+                
+                var user = await _usersRepository.GetAllDataUser(email);
+
+                user.PrimerNombre = await _dataAplication.DecriptAsync(user.PrimerNombre);
+                user.SegundoNombre = await _dataAplication.DecriptAsync(user.SegundoNombre);
+                user.PrimerApellido = await _dataAplication.DecriptAsync(user.PrimerApellido);
+                user.SegundoApellido = await _dataAplication.DecriptAsync(user.SegundoApellido);
+                user.NumeroDocumento = await _dataAplication.DecriptAsync(user.NumeroDocumento);
+                user.Telefono = await _dataAplication.DecriptAsync(user.Telefono);
+                user.Correo = await _dataAplication.DecriptAsync(user.Correo);
+                user.Contraseña = await _dataAplication.DecriptAsync(user.Contraseña);
 
                 data.IsSuccess = true;
                 data.Response = "200";
                 data.Message = "Datos Correctos.";
-                data.Data = await _usersRepository.GetAllDataUser(email);
+                data.Data = user;                
                 return data;
             }
             catch (Exception ex)
@@ -51,6 +64,13 @@ namespace Aplicacion.Main
             var data = new ResponseDto<bool> { Data = false };
             try
             {
+                usuarioActualizado.PrimerNombre = await _dataAplication.EncriptAsync(usuarioActualizado.PrimerNombre);
+                usuarioActualizado.SegundoNombre = await _dataAplication.EncriptAsync(usuarioActualizado.SegundoNombre);
+                usuarioActualizado.PrimerApellido = await _dataAplication.EncriptAsync(usuarioActualizado.PrimerApellido);
+                usuarioActualizado.SegundoApellido = await _dataAplication.EncriptAsync(usuarioActualizado.SegundoApellido);
+                usuarioActualizado.Telefono = await _dataAplication.EncriptAsync(usuarioActualizado.Telefono);
+                usuarioActualizado.Correo = await _dataAplication.EncriptAsync(usuarioActualizado.Correo);
+
                 var status = await _usersRepository.UpdateUserData(usuarioActualizado);
                 if (!status)
                 {
@@ -84,8 +104,22 @@ namespace Aplicacion.Main
             try
             {
                 var usuarios = await _usersRepository.GetAllUsers();
+                
                 if (!usuarios.Any())
                 {
+                    foreach (var usuario in usuarios)
+                    {
+                        usuario.PrimerApellido = await _dataAplication.DecriptAsync(usuario.PrimerApellido);
+                        usuario.PrimerNombre = await _dataAplication.DecriptAsync(usuario.PrimerNombre);
+                        usuario.SegundoNombre = await _dataAplication.DecriptAsync(usuario.SegundoNombre);
+                        usuario.PrimerApellido = await _dataAplication.DecriptAsync(usuario.PrimerApellido);
+                        usuario.SegundoApellido = await _dataAplication.DecriptAsync(usuario.SegundoApellido);
+                        usuario.NumeroDocumento = await _dataAplication.DecriptAsync(usuario.NumeroDocumento);
+                        usuario.Telefono = await _dataAplication.DecriptAsync(usuario.Telefono);
+                        usuario.Correo = await _dataAplication.DecriptAsync(usuario.Correo);
+                        usuario.Contraseña = await _dataAplication.DecriptAsync(usuario.Contraseña);
+                    }
+
                     data.IsSuccess = false;
                     data.Response = "400";
                     data.Message = "Problema no se puede consultar los datos de los usuarios.";
@@ -110,6 +144,16 @@ namespace Aplicacion.Main
             var data = new ResponseDto<bool> { Data = false };
             try
             {
+                usuarioNuevo.PrimerApellido = await _dataAplication.EncriptAsync(usuarioNuevo.PrimerApellido);
+                usuarioNuevo.PrimerNombre = await _dataAplication.EncriptAsync(usuarioNuevo.PrimerNombre);
+                usuarioNuevo.SegundoNombre = await _dataAplication.EncriptAsync(usuarioNuevo.SegundoNombre);
+                usuarioNuevo.PrimerApellido = await _dataAplication.EncriptAsync(usuarioNuevo.PrimerApellido);
+                usuarioNuevo.SegundoApellido = await _dataAplication.EncriptAsync(usuarioNuevo.SegundoApellido);
+                usuarioNuevo.NumeroDocumento = await _dataAplication.EncriptAsync(usuarioNuevo.NumeroDocumento);
+                usuarioNuevo.Telefono = await _dataAplication.EncriptAsync(usuarioNuevo.Telefono);
+                usuarioNuevo.Correo = await _dataAplication.EncriptAsync(usuarioNuevo.Correo);
+                usuarioNuevo.Contraseña = await _dataAplication.EncriptAsync(usuarioNuevo.Contraseña);
+
                 bool existe = await _loginRepository.GetExistUser(usuarioNuevo.Correo);
                 if (existe)
                 {
@@ -151,6 +195,7 @@ namespace Aplicacion.Main
             var data = new ResponseDto<bool> { Data = false };
             try
             {
+                contraseña = await _dataAplication.EncriptAsync(contraseña);
                 var status = await _usersRepository.VerifyPasswordForUser(userId, contraseña);
                 if (!status)
                 {
@@ -178,6 +223,7 @@ namespace Aplicacion.Main
             var data = new ResponseDto<bool> { Data = false };
             try
             {
+                nuevaContraseña = await _dataAplication.EncriptAsync(nuevaContraseña);
                 var status = await _usersRepository.UpdateUserPassword(userId, nuevaContraseña);
                 if (!status)
                 {
